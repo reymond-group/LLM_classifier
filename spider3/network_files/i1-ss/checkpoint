@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/rhys/Documents/Protein/spider_seq/network_files/i1-ss/network_best_full"
+all_model_checkpoint_paths: "/home/rhys/Documents/Protein/spider_seq/network_files/i1-ss/network_best_full"

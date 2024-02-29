@@ -1,0 +1,1836 @@
+COMMIT ID - ea8bf5fffdf3b534e3ecbfc9c68c09bb7ded368e
+https://github.com/rhysheffernan/tf-bioinf-brnn/commit/ea8bf5fffdf3b534e3ecbfc9c68c09bb7ded368e
+-i onehot -o ss ss8 -rnn 256 256 -fc 1024 512 -c 1 -b 60 --device 0 --max_no_best_val 10 --large --ind_test_set /home/rhys/work/Databases/ourdatabase/combined_cd40.mat /home/rhys/work/Databases/ourdatabase/combined_e01.mat --get_full_results --previous_output_dir /home/rhys/work/tensorflow_code/experiments/github_brnn/experiment_dir/tf-bioinf-brnn/sequence_only/it1_onehot-ss_ss8/170607-15:32:48/results /home/rhys/work/tensorflow_code/experiments/github_brnn/experiment_dir/tf-bioinf-brnn/sequence_only/it1_onehot-asa_ttpp_hsea_cn/170608-23:38:23/results
+NOTE! the print_results flag is set to true when get_full_results is true, regardless of user input!
+doing full network
+ss
+loading mat files finished loading mat files
+TIME: 8.03532
+8993 1000 1199
+epoch 0 started
+ complete. time taken: 518.86 seconds
+getting raw outputs  complete. time taken: 565.6 seconds
+results for output type  ss  TRAIN:  (0.73187100023805629, 0.72318036946735254)  VAL:  (0.73320226510650199, 0.72493080783780561)  TEST:  (0.73127307436097011, 0.72288245424041753)
+results for output type  ss8  TRAIN:  (0.61144666771561906, 0.59387730534940419)  VAL:  (0.61537671238104874, 0.59698600265733215)  TEST:  (0.60887360551883218, 0.59233404939016809)
+Val loss:  405362.5
+	NEW BEST VAL LOSS
+Total time spent on epoch: 575.429 seconds
+epoch 1 started
+ complete. time taken: 503.552 seconds
+getting raw outputs  complete. time taken: 549.267 seconds
+results for output type  ss  TRAIN:  (0.73283416913611044, 0.7242742878543531)  VAL:  (0.73236157844016048, 0.72424661101865873)  TEST:  (0.73264404084383128, 0.72412519750741211)
+results for output type  ss8  TRAIN:  (0.61630155772018014, 0.59905550417695297)  VAL:  (0.61753767870529641, 0.60057913950111019)  TEST:  (0.61542279001990119, 0.59908747137252116)
+Val loss:  405926.375
+Total time spent on epoch: 555.649 seconds
+epoch 2 started
+ complete. time taken: 520.579 seconds
+getting raw outputs  complete. time taken: 567.557 seconds
+results for output type  ss  TRAIN:  (0.7345498360903463, 0.72580816206424792)  VAL:  (0.73465399243999463, 0.72630361564912627)  TEST:  (0.73326515710387996, 0.72539989702984364)
+results for output type  ss8  TRAIN:  (0.61725040547749099, 0.59972809679219186)  VAL:  (0.61891776397306808, 0.60156791425910316)  TEST:  (0.6148144518443136, 0.59841283931329559)
+Val loss:  398395.890625
+	NEW BEST VAL LOSS
+Total time spent on epoch: 577.282 seconds
+epoch 3 started
+ complete. time taken: 499.13 seconds
+getting raw outputs  complete. time taken: 546.383 seconds
+results for output type  ss  TRAIN:  (0.73405167377967717, 0.72558890069322901)  VAL:  (0.73339352458838603, 0.72550023615825698)  TEST:  (0.7327162508893853, 0.72473946775081222)
+results for output type  ss8  TRAIN:  (0.61748820718016917, 0.60003764225715972)  VAL:  (0.61855961415808569, 0.60148845914462157)  TEST:  (0.61600851995871608, 0.59940703392689121)
+Val loss:  400841.453125
+Total time spent on epoch: 552.492 seconds
+epoch 4 started
+ complete. time taken: 500.508 seconds
+getting raw outputs  complete. time taken: 547.583 seconds
+results for output type  ss  TRAIN:  (0.7345593624769402, 0.72571978874477405)  VAL:  (0.73392731027858049, 0.72560617631089908)  TEST:  (0.73190304536547046, 0.7237914321728478)
+results for output type  ss8  TRAIN:  (0.61795436247626634, 0.6002764890665484)  VAL:  (0.61865837889812514, 0.60115739616761499)  TEST:  (0.61474700330512622, 0.59833117332717878)
+Val loss:  399110.375
+Total time spent on epoch: 553.753 seconds
+epoch 5 started
+ complete. time taken: 497.18 seconds
+getting raw outputs  complete. time taken: 544.029 seconds
+results for output type  ss  TRAIN:  (0.73570936507621953, 0.72710939948179798)  VAL:  (0.73375839640572293, 0.72629037313004596)  TEST:  (0.73349177877165961, 0.72555257691693154)
+results for output type  ss8  TRAIN:  (0.62028370030417168, 0.60288947316126174)  VAL:  (0.62053949232931271, 0.60333358346980481)  TEST:  (0.61689266526667985, 0.60113977311058642)
+Val loss:  395780.265625
+	NEW BEST VAL LOSS
+Total time spent on epoch: 554.045 seconds
+epoch 6 started
+ complete. time taken: 497.284 seconds
+getting raw outputs  complete. time taken: 541.827 seconds
+results for output type  ss  TRAIN:  (0.73587518203621194, 0.72715048113301284)  VAL:  (0.73506258443675321, 0.72703195419854072)  TEST:  (0.73296382391890502, 0.72482468443197756)
+results for output type  ss8  TRAIN:  (0.6207242085538266, 0.60332417435434926)  VAL:  (0.62171431584930881, 0.60432235822779778)  TEST:  (0.61843728858794045, 0.60197063575194842)
+Val loss:  395830.4375
+Total time spent on epoch: 547.688 seconds
+epoch 7 started
+ complete. time taken: 496.982 seconds
+getting raw outputs  complete. time taken: 541.728 seconds
+results for output type  ss  TRAIN:  (0.73607485609181589, 0.72751400597690252)  VAL:  (0.7351030169975763, 0.72670089122153414)  TEST:  (0.7336715600600614, 0.72564844568324249)
+results for output type  ss8  TRAIN:  (0.62130638936731997, 0.60408943953163097)  VAL:  (0.6213206917424422, 0.60427380232450356)  TEST:  (0.6178524345921621, 0.60154100165107316)
+Val loss:  396937.015625
+Total time spent on epoch: 547.725 seconds
+epoch 8 started
+ complete. time taken: 485.931 seconds
+getting raw outputs  complete. time taken: 532.507 seconds
+results for output type  ss  TRAIN:  (0.73666216588162858, 0.72803660279584526)  VAL:  (0.73477235817618614, 0.72686421562352399)  TEST:  (0.7335635377516323, 0.72555257691693154)
+results for output type  ss8  TRAIN:  (0.62068419102465344, 0.60333563900120002)  VAL:  (0.62043437652826494, 0.60303783387701226)  TEST:  (0.61749328782023438, 0.60123919257194591)
+Val loss:  396861.53125
+Total time spent on epoch: 538.604 seconds
+epoch 9 started
+ complete. time taken: 482.44 seconds
+getting raw outputs  complete. time taken: 528.921 seconds
+results for output type  ss  TRAIN:  (0.73798430519311642, 0.72923370300450174)  VAL:  (0.73451673863961264, 0.7267185479136411)  TEST:  (0.73406489761226079, 0.7260638770039235)
+results for output type  ss8  TRAIN:  (0.62266650253094014, 0.60516472786749931)  VAL:  (0.62059787200726679, 0.603691131484972)  TEST:  (0.61806020004519158, 0.60144868357981074)
+Val loss:  400615.0
+Total time spent on epoch: 535.196 seconds
+epoch 10 started
+ complete. time taken: 493.035 seconds
+getting raw outputs  complete. time taken: 538.207 seconds
+results for output type  ss  TRAIN:  (0.7385519737705476, 0.72972524973822395)  VAL:  (0.73471274032881662, 0.72661260776099901)  TEST:  (0.73332962282970526, 0.72537149146945512)
+results for output type  ss8  TRAIN:  (0.62311077076868737, 0.60521775185918358)  VAL:  (0.6215532420831521, 0.60412813461462067)  TEST:  (0.61710116740061616, 0.60093738349281867)
+Val loss:  396281.515625
+Total time spent on epoch: 544.434 seconds
+epoch 11 started
+ complete. time taken: 478.769 seconds
+getting raw outputs  complete. time taken: 524.366 seconds
+results for output type  ss  TRAIN:  (0.73989378265525219, 0.7309510115640071)  VAL:  (0.73618199364542602, 0.72806045651377438)  TEST:  (0.73452009490711911, 0.72669235002751786)
+results for output type  ss8  TRAIN:  (0.62409941351099074, 0.60661882724305816)  VAL:  (0.62143113513417458, 0.60438415665017242)  TEST:  (0.61849407767173659, 0.60224048857563872)
+Val loss:  395815.0625
+Total time spent on epoch: 530.404 seconds
+epoch 12 started
+ complete. time taken: 493.521 seconds
+getting raw outputs  complete. time taken: 537.212 seconds
+results for output type  ss  TRAIN:  (0.74081259764837781, 0.73190926496327491)  VAL:  (0.73474161091231138, 0.72698339829524639)  TEST:  (0.7329320389054953, 0.72501642196459959)
+results for output type  ss8  TRAIN:  (0.62639309764083806, 0.60882816022990438)  VAL:  (0.62171891651084232, 0.60477260387652676)  TEST:  (0.61833584209459236, 0.60236121220728955)
+Val loss:  395982.328125
+Total time spent on epoch: 543.422 seconds
+epoch 13 started
+ complete. time taken: 484.643 seconds
+getting raw outputs  complete. time taken: 530.7 seconds
+results for output type  ss  TRAIN:  (0.74265360891728138, 0.73367386519103928)  VAL:  (0.73343433440637595, 0.72571653063656794)  TEST:  (0.73325908135321605, 0.72484953929731744)
+results for output type  ss8  TRAIN:  (0.62740936537930114, 0.60959772464975504)  VAL:  (0.62052816072435002, 0.60310404647241367)  TEST:  (0.61634282917554772, 0.60009941946135958)
+Val loss:  397481.8125
+Total time spent on epoch: 536.666 seconds
+epoch 14 started
+ complete. time taken: 497.7 seconds
+getting raw outputs  complete. time taken: 544.889 seconds
+results for output type  ss  TRAIN:  (0.74443515818497119, 0.73541123688253318)  VAL:  (0.73412914181874445, 0.72610497786292227)  TEST:  (0.73331917349869347, 0.72535018729916378)
+results for output type  ss8  TRAIN:  (0.62887983256514801, 0.61132124322630443)  VAL:  (0.62056775973262424, 0.60367347479286493)  TEST:  (0.61816939388499859, 0.60181440516981199)
+Val loss:  397131.3125
+Total time spent on epoch: 551.075 seconds
+epoch 15 started
+ complete. time taken: 487.593 seconds
+getting raw outputs  complete. time taken: 533.754 seconds
+results for output type  ss  TRAIN:  (0.74541627872825222, 0.73648556983116398)  VAL:  (0.731769003754275, 0.72323576539553203)  TEST:  (0.72827458352858521, 0.72073783443108985)
+results for output type  ss8  TRAIN:  (0.63071205972003419, 0.61313982283299062)  VAL:  (0.61813813896785719, 0.60117946703274872)  TEST:  (0.61374959905053394, 0.59841283931329559)
+Val loss:  401365.703125
+Total time spent on epoch: 539.948 seconds
+it has been 10 epochs since a new best validation error has been found. stopping training
+./sequence_only/it1_onehot-ss_ss8/170615-12:24:50/network_best_full
+Saving the best outputs of the test set to files
+Results for the best network 5
+results for output type  ss  TRAIN:  (0.73570936507621953, 0.72710939948179798)  VAL:  (0.73375839640572293, 0.72629037313004596)  TEST:  (0.73349177877165961, 0.72555257691693154)  IND - /home/rhys/work/Databases/ourdatabase/combined_cd40.mat : (0.7347971635724776, 0.72501652017800855)  IND - /home/rhys/work/Databases/ourdatabase/combined_e01.mat : (0.74357674453100164, 0.73235269109769574) 
+results for output type  ss8  TRAIN:  (0.62028370030417168, 0.60288947316126174)  VAL:  (0.62053949232931271, 0.60333358346980481)  TEST:  (0.61689266526667985, 0.60113977311058642)  IND - /home/rhys/work/Databases/ourdatabase/combined_cd40.mat : (0.61920465784434997, 0.59981403835020441)  IND - /home/rhys/work/Databases/ourdatabase/combined_e01.mat : (0.63899477586594455, 0.6171584048975427) 
+doing fold number  1
+ss
+loading mat files finished loading mat files
+TIME: 6.07891
+8094 900 999
+epoch 0 started
+ complete. time taken: 433.606 seconds
+getting raw outputs  complete. time taken: 474.286 seconds
+results for output type  ss  TRAIN:  (0.73154490329486976, 0.72342892890123967)  VAL:  (0.73453560821969077, 0.72522155642174257)  TEST:  (0.72647277132037225, 0.71919094280227369)
+results for output type  ss8  TRAIN:  (0.6151748657870546, 0.59781345884595904)  VAL:  (0.62043260897276831, 0.60087846878817852)  TEST:  (0.60803722753766609, 0.59255869257451788)
+Val loss:  368833.78125
+	NEW BEST VAL LOSS
+Total time spent on epoch: 487.047 seconds
+epoch 1 started
+ complete. time taken: 423.837 seconds
+getting raw outputs  complete. time taken: 465.832 seconds
+results for output type  ss  TRAIN:  (0.7323343504281663, 0.72409972210755669)  VAL:  (0.73510195896073582, 0.72516822774254852)  TEST:  (0.72584359225694495, 0.71883594308028553)
+results for output type  ss8  TRAIN:  (0.61638394612957825, 0.59945506696229089)  VAL:  (0.6209337040836499, 0.60144569201233344)  TEST:  (0.60847741676407618, 0.59324302938798901)
+Val loss:  368126.53125
+	NEW BEST VAL LOSS
+Total time spent on epoch: 479.195 seconds
+epoch 2 started
+ complete. time taken: 433.78 seconds
+getting raw outputs  complete. time taken: 474.861 seconds
+results for output type  ss  TRAIN:  (0.73294784171784999, 0.72443804445427962)  VAL:  (0.73513131183575975, 0.72547850369422306)  TEST:  (0.72639210022777201, 0.71873756966334901)
+results for output type  ss8  TRAIN:  (0.61524012262983319, 0.59782569377359218)  VAL:  (0.6194238124457434, 0.59956949211705157)  TEST:  (0.60834696858661774, 0.59260146362535981)
+Val loss:  365383.8125
+	NEW BEST VAL LOSS
+Total time spent on epoch: 487.641 seconds
+epoch 3 started
+ complete. time taken: 427.574 seconds
+getting raw outputs  complete. time taken: 468.574 seconds
+results for output type  ss  TRAIN:  (0.72756501410243579, 0.71958131013732907)  VAL:  (0.72823011787668945, 0.7191857195493242)  TEST:  (0.72026327372122145, 0.71319444147423261)
+results for output type  ss8  TRAIN:  (0.61294066352658294, 0.59605322512692405)  VAL:  (0.61485130582841063, 0.59599647061104966)  TEST:  (0.60418764495801291, 0.58868791247332153)
+Val loss:  372716.71875
+Total time spent on epoch: 474.666 seconds
+epoch 4 started
+ complete. time taken: 434.109 seconds
+getting raw outputs  complete. time taken: 474.391 seconds
+results for output type  ss  TRAIN:  (0.73522317461985065, 0.7265695816293094)  VAL:  (0.7374407023739481, 0.72753892993581171)  TEST:  (0.72797931893618562, 0.72077774878850998)
+results for output type  ss8  TRAIN:  (0.6186372899059448, 0.60146053118736253)  VAL:  (0.6231093163531205, 0.60342854926600342)  TEST:  (0.61025023317143556, 0.59469724511661526)
+Val loss:  361304.71875
+	NEW BEST VAL LOSS
+Total time spent on epoch: 487.62 seconds
+epoch 5 started
+ complete. time taken: 421.142 seconds
+getting raw outputs  complete. time taken: 461.289 seconds
+results for output type  ss  TRAIN:  (0.73590861918720063, 0.72734942527757329)  VAL:  (0.73771324785351755, 0.72779102914654725)  TEST:  (0.72887048249240849, 0.72132949534437107)
+results for output type  ss8  TRAIN:  (0.61935211678035418, 0.60196588689394548)  VAL:  (0.62338653380048525, 0.60349157406868736)  TEST:  (0.6115563942025849, 0.59557832876395944)
+Val loss:  364538.328125
+Total time spent on epoch: 466.988 seconds
+epoch 6 started
+ complete. time taken: 424.346 seconds
+getting raw outputs  complete. time taken: 463.846 seconds
+results for output type  ss  TRAIN:  (0.73558886744615193, 0.72708876812365153)  VAL:  (0.73748149534291907, 0.72754377799755654)  TEST:  (0.72815778811488885, 0.72080768852409938)
+results for output type  ss8  TRAIN:  (0.61699028346059925, 0.59944655570828531)  VAL:  (0.61965827975206034, 0.59973917427812362)  TEST:  (0.60874338702169351, 0.59197700628306738)
+Val loss:  365043.765625
+Total time spent on epoch: 469.713 seconds
+epoch 7 started
+ complete. time taken: 429.386 seconds
+getting raw outputs  complete. time taken: 469.049 seconds
+results for output type  ss  TRAIN:  (0.73554630120653697, 0.72703238106586432)  VAL:  (0.73667581204968913, 0.727068667946555)  TEST:  (0.72714450573669631, 0.71939196674123085)
+results for output type  ss8  TRAIN:  (0.61994584327597801, 0.60259412383023447)  VAL:  (0.62201810266438673, 0.60218744545930536)  TEST:  (0.61017785820102155, 0.59396586014721797)
+Val loss:  363153.59375
+Total time spent on epoch: 474.624 seconds
+epoch 8 started
+ complete. time taken: 421.271 seconds
+getting raw outputs  complete. time taken: 460.426 seconds
+results for output type  ss  TRAIN:  (0.73657038109264883, 0.72787127153879216)  VAL:  (0.73600468101652694, 0.72660325401904313)  TEST:  (0.72732240653663871, 0.71933208727005216)
+results for output type  ss8  TRAIN:  (0.61954429237106268, 0.60230101752041632)  VAL:  (0.62173084855351035, 0.60248317722574518)  TEST:  (0.60970953216024582, 0.59316604149647356)
+Val loss:  364644.703125
+Total time spent on epoch: 466.073 seconds
+epoch 9 started
+ complete. time taken: 427.177 seconds
+getting raw outputs  complete. time taken: 466.826 seconds
+results for output type  ss  TRAIN:  (0.7371576168198154, 0.72855695943961907)  VAL:  (0.73740176487533471, 0.72732076715729055)  TEST:  (0.72627200018499061, 0.71812594363630922)
+results for output type  ss8  TRAIN:  (0.62006358222524716, 0.60266327776903006)  VAL:  (0.62190604596392207, 0.6023910640525918)  TEST:  (0.60950476489190042, 0.59317031860155767)
+Val loss:  364397.5625
+Total time spent on epoch: 472.694 seconds
+epoch 10 started
+ complete. time taken: 424.514 seconds
+getting raw outputs  complete. time taken: 463.679 seconds
+results for output type  ss  TRAIN:  (0.73667049113245842, 0.72803298536489869)  VAL:  (0.73613932100800239, 0.72600209436267382)  TEST:  (0.72661567893965417, 0.71893431649722206)
+results for output type  ss8  TRAIN:  (0.62280378167757422, 0.60542145602022279)  VAL:  (0.62464112363868829, 0.60464056470223204)  TEST:  (0.61158584460774434, 0.59537302771991807)
+Val loss:  361467.359375
+Total time spent on epoch: 469.129 seconds
+epoch 11 started
+ complete. time taken: 420.447 seconds
+getting raw outputs  complete. time taken: 461.15 seconds
+results for output type  ss  TRAIN:  (0.7373252189260413, 0.72851121144933884)  VAL:  (0.7344498876110791, 0.72489673628483331)  TEST:  (0.72676201100552473, 0.71864347335149681)
+results for output type  ss8  TRAIN:  (0.62126316745019483, 0.60390006936672014)  VAL:  (0.62179876402392642, 0.60190625787810037)  TEST:  (0.61062498447360525, 0.59426953460819576)
+Val loss:  362610.828125
+Total time spent on epoch: 466.888 seconds
+epoch 12 started
+ complete. time taken: 427.721 seconds
+getting raw outputs  complete. time taken: 467.489 seconds
+results for output type  ss  TRAIN:  (0.74008601518734551, 0.73122683343050343)  VAL:  (0.73699427166133624, 0.72753408187406676)  TEST:  (0.7268054696640025, 0.71887015992095915)
+results for output type  ss8  TRAIN:  (0.62333494619732366, 0.60587999982977492)  VAL:  (0.62234089860137043, 0.60277890899218489)  TEST:  (0.61064576998389719, 0.59400435409297569)
+Val loss:  361233.34375
+	NEW BEST VAL LOSS
+Total time spent on epoch: 480.367 seconds
+epoch 13 started
+ complete. time taken: 424.102 seconds
+getting raw outputs  complete. time taken: 464.715 seconds
+results for output type  ss  TRAIN:  (0.74136944136473371, 0.73262001932054654)  VAL:  (0.7358812570843446, 0.72656446952508391)  TEST:  (0.72622329819977383, 0.71733467919573313)
+results for output type  ss8  TRAIN:  (0.62589436420694777, 0.60849880629662567)  VAL:  (0.62306853643548243, 0.60355944693311614)  TEST:  (0.60979796702328193, 0.59286236703549566)
+Val loss:  362338.265625
+Total time spent on epoch: 470.581 seconds
+epoch 14 started
+ complete. time taken: 426.27 seconds
+getting raw outputs  complete. time taken: 466.463 seconds
+results for output type  ss  TRAIN:  (0.74068735633737792, 0.73219924420064431)  VAL:  (0.73316896442428303, 0.7243198169371885)  TEST:  (0.72374227351765219, 0.71595745135862243)
+results for output type  ss8  TRAIN:  (0.62565716559374174, 0.60852487201201788)  VAL:  (0.62145599647098249, 0.6028613260418485)  TEST:  (0.60802962667908622, 0.59214381338135091)
+Val loss:  364282.3125
+Total time spent on epoch: 472.209 seconds
+epoch 15 started
+ complete. time taken: 418 seconds
+getting raw outputs  complete. time taken: 458.545 seconds
+results for output type  ss  TRAIN:  (0.74487542974294518, 0.73585695560955477)  VAL:  (0.73498447275786483, 0.72530882153315102)  TEST:  (0.72737260377091417, 0.719439014897157)
+results for output type  ss8  TRAIN:  (0.6287494751926066, 0.61106228961244002)  VAL:  (0.6221716154323611, 0.6022747105707138)  TEST:  (0.61169532097986312, 0.59542435298092844)
+Val loss:  362663.09375
+Total time spent on epoch: 464.252 seconds
+epoch 16 started
+ complete. time taken: 419.289 seconds
+getting raw outputs  complete. time taken: 460.002 seconds
+results for output type  ss  TRAIN:  (0.745315972586296, 0.73628571003008725)  VAL:  (0.73122740905969763, 0.72241452867143718)  TEST:  (0.72227490168478414, 0.71569227084340237)
+results for output type  ss8  TRAIN:  (0.63275508442094019, 0.61515141520875982)  VAL:  (0.62129135503584443, 0.60300191983245099)  TEST:  (0.6100323191396132, 0.59426525750311154)
+Val loss:  364331.46875
+Total time spent on epoch: 465.835 seconds
+epoch 17 started
+ complete. time taken: 425.403 seconds
+getting raw outputs  complete. time taken: 464.913 seconds
+results for output type  ss  TRAIN:  (0.75104632968515683, 0.74209038526191251)  VAL:  (0.73128471797917138, 0.72185215350902709)  TEST:  (0.72320937489697013, 0.7155810661112133)
+results for output type  ss8  TRAIN:  (0.63586931531721091, 0.61820110390964456)  VAL:  (0.62079269788185631, 0.60119844086334284)  TEST:  (0.60826445076580504, 0.59234483732030807)
+Val loss:  366107.4375
+Total time spent on epoch: 470.47 seconds
+epoch 18 started
+ complete. time taken: 426.999 seconds
+getting raw outputs  complete. time taken: 468.013 seconds
+results for output type  ss  TRAIN:  (0.75531909958508814, 0.74579650442797984)  VAL:  (0.73097010154963504, 0.72160005429829155)  TEST:  (0.72240337370542751, 0.71523889770447768)
+results for output type  ss8  TRAIN:  (0.63832502191667062, 0.6204113701842261)  VAL:  (0.61813662748004261, 0.59890530765799832)  TEST:  (0.60671665867233704, 0.59103176605946028)
+Val loss:  364970.28125
+Total time spent on epoch: 473.79 seconds
+epoch 19 started
+ complete. time taken: 418.042 seconds
+getting raw outputs  complete. time taken: 458.371 seconds
+results for output type  ss  TRAIN:  (0.75687186258311934, 0.74806954120085278)  VAL:  (0.73056028906917592, 0.72107646362984079)  TEST:  (0.72421026572789349, 0.71653486054498872)
+results for output type  ss8  TRAIN:  (0.63986589168175412, 0.62223277854142645)  VAL:  (0.61687143628734742, 0.59771753253049431)  TEST:  (0.6080595919496995, 0.59190001839155182)
+Val loss:  366852.78125
+Total time spent on epoch: 464.274 seconds
+epoch 20 started
+ complete. time taken: 416.532 seconds
+getting raw outputs  complete. time taken: 457.094 seconds
+results for output type  ss  TRAIN:  (0.76117772480067036, 0.75182140835720035)  VAL:  (0.72992734752831478, 0.720043826478174)  TEST:  (0.72166071919937336, 0.71433642853171264)
+results for output type  ss8  TRAIN:  (0.64493214106087471, 0.62720281892732666)  VAL:  (0.61687547213949634, 0.59726181472647233)  TEST:  (0.60685045507197322, 0.59087779027642928)
+Val loss:  368786.34375
+Total time spent on epoch: 463.142 seconds
+epoch 21 started
+ complete. time taken: 410.663 seconds
+getting raw outputs  complete. time taken: 450.897 seconds
+results for output type  ss  TRAIN:  (0.76419847153434517, 0.75529453194486407)  VAL:  (0.72461896414622617, 0.71473519886749282)  TEST:  (0.71437342148247385, 0.7062099288717425)
+results for output type  ss8  TRAIN:  (0.64799104685290199, 0.63040092261993419)  VAL:  (0.61242894786760105, 0.59327185991040787)  TEST:  (0.59873588584988024, 0.58132273751833807)
+Val loss:  373361.9375
+Total time spent on epoch: 456.653 seconds
+epoch 22 started
+ complete. time taken: 419.318 seconds
+getting raw outputs  complete. time taken: 460.529 seconds
+results for output type  ss  TRAIN:  (0.7665328885689946, 0.75724520497227454)  VAL:  (0.72747327808852835, 0.71771190877887026)  TEST:  (0.7189998768449225, 0.71063673263388405)
+results for output type  ss8  TRAIN:  (0.64897632299128327, 0.63123449355910854)  VAL:  (0.61496639182986534, 0.5961661527721217)  TEST:  (0.60327728134682335, 0.58602327600586823)
+Val loss:  372293.578125
+Total time spent on epoch: 466.454 seconds
+it has been 10 epochs since a new best validation error has been found. stopping training
+./sequence_only/it1_onehot-ss_ss8/170615-12:24:50/network_best_train_fold_1
+Saving the best outputs of the test set to files
+Results for the best network 12
+results for output type  ss  TRAIN:  (0.74008601518734551, 0.73122683343050343)  VAL:  (0.73699427166133624, 0.72753408187406676)  TEST:  (0.7268054696640025, 0.71887015992095915)  IND - /home/rhys/work/Databases/ourdatabase/combined_cd40.mat : (0.73347401751333507, 0.7244960614726057)  IND - /home/rhys/work/Databases/ourdatabase/combined_e01.mat : (0.74159105671297809, 0.73179151432701306) 
+results for output type  ss8  TRAIN:  (0.62333494619732366, 0.60587999982977492)  VAL:  (0.62234089860137043, 0.60277890899218489)  TEST:  (0.61064576998389719, 0.59400435409297569)  IND - /home/rhys/work/Databases/ourdatabase/combined_cd40.mat : (0.61702609257299257, 0.59853335906387606)  IND - /home/rhys/work/Databases/ourdatabase/combined_e01.mat : (0.63642008786716953, 0.61584899243261626) 
+doing fold number  2
+ss
+loading mat files finished loading mat files
+TIME: 6.36595
+8093 900 1000
+epoch 0 started
+ complete. time taken: 429.268 seconds
+getting raw outputs  complete. time taken: 470.862 seconds
+results for output type  ss  TRAIN:  (0.73010231706224016, 0.72192707696007619)  VAL:  (0.73262994929549563, 0.72279743002732444)  TEST:  (0.73039367378874531, 0.72318586852594857)
+results for output type  ss8  TRAIN:  (0.61336661304391971, 0.59663857533567366)  VAL:  (0.61797172950341628, 0.59869532038500362)  TEST:  (0.61640360791131166, 0.59922112735702837)
+Val loss:  360596.03125
+	NEW BEST VAL LOSS
+Total time spent on epoch: 487.889 seconds
+epoch 1 started
+ complete. time taken: 427.549 seconds
+getting raw outputs  complete. time taken: 471.67 seconds
+results for output type  ss  TRAIN:  (0.73258770678323371, 0.72404862666075498)  VAL:  (0.73498832786881618, 0.72550525564335477)  TEST:  (0.73236619705717132, 0.72489729271902514)
+results for output type  ss8  TRAIN:  (0.61474555980021561, 0.5979379914195101)  VAL:  (0.61874584298508251, 0.59936489181005836)  TEST:  (0.61669501562786222, 0.59918183445463635)
+Val loss:  358747.328125
+	NEW BEST VAL LOSS
+Total time spent on epoch: 488.459 seconds
+epoch 2 started
+ complete. time taken: 436.475 seconds
+getting raw outputs  complete. time taken: 476.135 seconds
+results for output type  ss  TRAIN:  (0.73082941681061264, 0.72252990431572472)  VAL:  (0.73455122628743674, 0.72390517687024591)  TEST:  (0.7302872967592875, 0.72319460028203575)
+results for output type  ss8  TRAIN:  (0.61557902993754887, 0.59849844075367198)  VAL:  (0.62167708774981345, 0.60093050734805409)  TEST:  (0.6177767623213547, 0.6006094765748814)
+Val loss:  362922.03125
+Total time spent on epoch: 481.804 seconds
+epoch 3 started
+ complete. time taken: 431.873 seconds
+getting raw outputs  complete. time taken: 476.636 seconds
+results for output type  ss  TRAIN:  (0.73249815670303164, 0.72392943847532354)  VAL:  (0.73400410741612576, 0.72400856657558521)  TEST:  (0.73140906699010089, 0.72352640701334647)
+results for output type  ss8  TRAIN:  (0.61390921526848929, 0.59663115918191345)  VAL:  (0.61739981782345665, 0.59734140757698839)  TEST:  (0.61249239977144154, 0.59491637160607558)
+Val loss:  361675.046875
+Total time spent on epoch: 482.725 seconds
+epoch 4 started
+ complete. time taken: 433.192 seconds
+getting raw outputs  complete. time taken: 477.349 seconds
+results for output type  ss  TRAIN:  (0.73268124685600866, 0.72423720885637077)  VAL:  (0.73490489992616703, 0.7249193806464318)  TEST:  (0.731572551986298, 0.72405904413466116)
+results for output type  ss8  TRAIN:  (0.61808771892901526, 0.60108244061382443)  VAL:  (0.6230386689335915, 0.60263397582650224)  TEST:  (0.61909014776679083, 0.60193233762208087)
+Val loss:  358146.0
+	NEW BEST VAL LOSS
+Total time spent on epoch: 494.225 seconds
+epoch 5 started
+ complete. time taken: 428.42 seconds
+getting raw outputs  complete. time taken: 469.243 seconds
+results for output type  ss  TRAIN:  (0.73235136070605278, 0.72397658402422749)  VAL:  (0.73366181887143245, 0.72318637225217242)  TEST:  (0.7297553815733907, 0.72152683486939473)
+results for output type  ss8  TRAIN:  (0.61744514055471722, 0.60042664073131746)  VAL:  (0.62165086392821767, 0.60134898948871329)  TEST:  (0.61810759688637695, 0.6004523049653131)
+Val loss:  360030.515625
+Total time spent on epoch: 475.289 seconds
+epoch 6 started
+ complete. time taken: 418.153 seconds
+getting raw outputs  complete. time taken: 459.105 seconds
+results for output type  ss  TRAIN:  (0.73529387536740376, 0.72663156707037024)  VAL:  (0.73693923091893987, 0.72680993525835114)  TEST:  (0.73341384012851185, 0.72575300481556348)
+results for output type  ss8  TRAIN:  (0.6197118761984165, 0.60259957378304885)  VAL:  (0.62484808014989468, 0.6042389779189129)  TEST:  (0.6187549763451502, 0.60118577247663163)
+Val loss:  356871.8125
+	NEW BEST VAL LOSS
+Total time spent on epoch: 476.067 seconds
+epoch 7 started
+ complete. time taken: 429.115 seconds
+getting raw outputs  complete. time taken: 471.444 seconds
+results for output type  ss  TRAIN:  (0.73597881534767273, 0.72748071667591041)  VAL:  (0.73794489253683981, 0.72767643945548088)  TEST:  (0.73365759302489597, 0.72632056896122665)
+results for output type  ss8  TRAIN:  (0.62019603135818901, 0.60320452003977176)  VAL:  (0.62473084131493195, 0.60420943800310167)  TEST:  (0.61966923497184889, 0.60242568184100342)
+Val loss:  357632.3125
+Total time spent on epoch: 477.392 seconds
+epoch 8 started
+ complete. time taken: 432.328 seconds
+getting raw outputs  complete. time taken: 472.391 seconds
+results for output type  ss  TRAIN:  (0.736936693587535, 0.72824511023847704)  VAL:  (0.73804430305580704, 0.72736134702016098)  TEST:  (0.73353761837001219, 0.72614156796144058)
+results for output type  ss8  TRAIN:  (0.62117468035113188, 0.60396043799804111)  VAL:  (0.62546144068930731, 0.60499224577209954)  TEST:  (0.61970759513016649, 0.60188867884164521)
+Val loss:  356707.28125
+	NEW BEST VAL LOSS
+Total time spent on epoch: 489.22 seconds
+epoch 9 started
+ complete. time taken: 434.407 seconds
+getting raw outputs  complete. time taken: 475.878 seconds
+results for output type  ss  TRAIN:  (0.73790168098698117, 0.72928707984178165)  VAL:  (0.73905893926351485, 0.72848878714028997)  TEST:  (0.73378624728323594, 0.72619395849796331)
+results for output type  ss8  TRAIN:  (0.62119057149763557, 0.60410187464475296)  VAL:  (0.62537236086651626, 0.60456884031213842)  TEST:  (0.61887045736519208, 0.6009019904038001)
+Val loss:  356536.6875
+	NEW BEST VAL LOSS
+Total time spent on epoch: 493.109 seconds
+epoch 10 started
+ complete. time taken: 435.395 seconds
+getting raw outputs  complete. time taken: 479.686 seconds
+results for output type  ss  TRAIN:  (0.73734769176390746, 0.72876424100168924)  VAL:  (0.73635999617726255, 0.72664254240208748)  TEST:  (0.73201924545405417, 0.72451309545119169)
+results for output type  ss8  TRAIN:  (0.62117191835087204, 0.60412147447969056)  VAL:  (0.62321110213337971, 0.60288506511089779)  TEST:  (0.61656993784282377, 0.59914254155224433)
+Val loss:  359793.65625
+Total time spent on epoch: 485.548 seconds
+epoch 11 started
+ complete. time taken: 431.472 seconds
+getting raw outputs  complete. time taken: 472.09 seconds
+results for output type  ss  TRAIN:  (0.73900632583864811, 0.73032375219240042)  VAL:  (0.73806450797878587, 0.727592743027349)  TEST:  (0.73319282826472043, 0.72525529471859729)
+results for output type  ss8  TRAIN:  (0.62183919199249171, 0.60471052897835598)  VAL:  (0.62335635594643113, 0.60309676784087829)  TEST:  (0.61802009149054293, 0.60059201306270715)
+Val loss:  357500.234375
+Total time spent on epoch: 478.04 seconds
+epoch 12 started
+ complete. time taken: 439.694 seconds
+getting raw outputs  complete. time taken: 482.568 seconds
+results for output type  ss  TRAIN:  (0.73919434726405031, 0.73056265828853184)  VAL:  (0.73516721123963735, 0.725027693671073)  TEST:  (0.73165618309916092, 0.72393243367139781)
+results for output type  ss8  TRAIN:  (0.62366094757544266, 0.60634473143193746)  VAL:  (0.62230845527944034, 0.60216626049282429)  TEST:  (0.61872087332752446, 0.600792843452711)
+Val loss:  354618.5
+	NEW BEST VAL LOSS
+Total time spent on epoch: 499.466 seconds
+epoch 13 started
+ complete. time taken: 431.533 seconds
+getting raw outputs  complete. time taken: 473.14 seconds
+results for output type  ss  TRAIN:  (0.7431082951900283, 0.73406679094021465)  VAL:  (0.73712477084764028, 0.72729242054993481)  TEST:  (0.73197619321831353, 0.72464407179249857)
+results for output type  ss8  TRAIN:  (0.62674150614141289, 0.60917876161886164)  VAL:  (0.6240519724317094, 0.60395834871870613)  TEST:  (0.6174791415648947, 0.5998323502831272)
+Val loss:  354800.96875
+Total time spent on epoch: 479.314 seconds
+epoch 14 started
+ complete. time taken: 425.938 seconds
+getting raw outputs  complete. time taken: 466.771 seconds
+results for output type  ss  TRAIN:  (0.74604022544123594, 0.73667303926164773)  VAL:  (0.73517485305548158, 0.72455505501809325)  TEST:  (0.73056099457052992, 0.72250479155115277)
+results for output type  ss8  TRAIN:  (0.62958409893995981, 0.61188512801605699)  VAL:  (0.62321296346728261, 0.60255520271767227)  TEST:  (0.61568121155388944, 0.59812529196809416)
+Val loss:  356150.171875
+Total time spent on epoch: 472.248 seconds
+epoch 15 started
+ complete. time taken: 437.756 seconds
+getting raw outputs  complete. time taken: 479.077 seconds
+results for output type  ss  TRAIN:  (0.74598086463079194, 0.73671912536001449)  VAL:  (0.73555549857819591, 0.72470275459714939)  TEST:  (0.72984593838448431, 0.72153120074743837)
+results for output type  ss8  TRAIN:  (0.62966546269193524, 0.61193651136710969)  VAL:  (0.62164848196080591, 0.601048667011299)  TEST:  (0.6143792087979888, 0.59660596640893437)
+Val loss:  358883.609375
+Total time spent on epoch: 484.883 seconds
+epoch 16 started
+ complete. time taken: 437.043 seconds
+getting raw outputs  complete. time taken: 480.845 seconds
+results for output type  ss  TRAIN:  (0.75023579712665711, 0.74068252981955973)  VAL:  (0.73341862420797221, 0.72368855082096351)  TEST:  (0.7281196951690585, 0.72044409711459123)
+results for output type  ss8  TRAIN:  (0.63383711283814004, 0.61578655461917786)  VAL:  (0.62087665229360467, 0.60067449474435664)  TEST:  (0.6134423104003075, 0.59599474348283554)
+Val loss:  357718.546875
+Total time spent on epoch: 486.454 seconds
+epoch 17 started
+ complete. time taken: 431.759 seconds
+getting raw outputs  complete. time taken: 472.51 seconds
+results for output type  ss  TRAIN:  (0.75341369998346852, 0.74390802697996739)  VAL:  (0.73039633792155578, 0.71931664328089995)  TEST:  (0.72360862308341112, 0.71537094682797131)
+results for output type  ss8  TRAIN:  (0.63770171001385989, 0.61962388446479999)  VAL:  (0.61807256376045527, 0.59698692858725355)  TEST:  (0.60962581630652568, 0.59110932595208887)
+Val loss:  360616.5
+Total time spent on epoch: 478.142 seconds
+epoch 18 started
+ complete. time taken: 431.042 seconds
+getting raw outputs  complete. time taken: 472.579 seconds
+results for output type  ss  TRAIN:  (0.75734843786844075, 0.74805577583297977)  VAL:  (0.72847596274816018, 0.71935602983531499)  TEST:  (0.72016863052721802, 0.71270339534335447)
+results for output type  ss8  TRAIN:  (0.64061144632736877, 0.62270105855000424)  VAL:  (0.61618035929134474, 0.59625335401127444)  TEST:  (0.60687972698730375, 0.58875611768660852)
+Val loss:  362132.375
+Total time spent on epoch: 478.157 seconds
+epoch 19 started
+ complete. time taken: 433.539 seconds
+getting raw outputs  complete. time taken: 474.819 seconds
+results for output type  ss  TRAIN:  (0.76106259884366712, 0.75188357062376743)  VAL:  (0.72591824863856536, 0.71653496787534154)  TEST:  (0.71884215481938885, 0.71113167924767184)
+results for output type  ss8  TRAIN:  (0.64331341579668233, 0.62585451307388451)  VAL:  (0.61179024074019728, 0.59240824163651129)  TEST:  (0.60450111036997534, 0.58725425563962297)
+Val loss:  365301.640625
+Total time spent on epoch: 480.63 seconds
+epoch 20 started
+ complete. time taken: 425.585 seconds
+getting raw outputs  complete. time taken: 467.519 seconds
+results for output type  ss  TRAIN:  (0.76114761397925568, 0.75225225941070184)  VAL:  (0.72526247875108041, 0.71481180611968587)  TEST:  (0.71840122231496428, 0.7095817925422071)
+results for output type  ss8  TRAIN:  (0.64637196769988914, 0.62889248748921345)  VAL:  (0.61262604984961577, 0.59255594121556754)  TEST:  (0.60659487119428301, 0.58703596173744488)
+Val loss:  367754.109375
+Total time spent on epoch: 473.601 seconds
+epoch 21 started
+ complete. time taken: 430.737 seconds
+getting raw outputs  complete. time taken: 471.603 seconds
+results for output type  ss  TRAIN:  (0.76562206455761972, 0.75680312919310655)  VAL:  (0.72946864600362382, 0.71913448046673067)  TEST:  (0.72192805204818022, 0.71305266558683955)
+results for output type  ss8  TRAIN:  (0.64953708948753464, 0.63204223393621362)  VAL:  (0.61641789004522685, 0.59613027102872762)  TEST:  (0.60815992590911783, 0.58945902405162209)
+Val loss:  369231.75
+Total time spent on epoch: 477.395 seconds
+epoch 22 started
+ complete. time taken: 427.296 seconds
+getting raw outputs  complete. time taken: 471.006 seconds
+results for output type  ss  TRAIN:  (0.76942863796428862, 0.76042486085441507)  VAL:  (0.72771461407782589, 0.71848460231888334)  TEST:  (0.71875471046209027, 0.7105903103702701)
+results for output type  ss8  TRAIN:  (0.65094160358888042, 0.63347990831515055)  VAL:  (0.61465330970735554, 0.59486005464884428)  TEST:  (0.60364814558252644, 0.58613222498242734)
+Val loss:  367956.390625
+Total time spent on epoch: 477.057 seconds
+it has been 10 epochs since a new best validation error has been found. stopping training
+./sequence_only/it1_onehot-ss_ss8/170615-12:24:50/network_best_train_fold_2
+Saving the best outputs of the test set to files
+Results for the best network 12
+results for output type  ss  TRAIN:  (0.73919434726405031, 0.73056265828853184)  VAL:  (0.73516721123963735, 0.725027693671073)  TEST:  (0.73165618309916092, 0.72393243367139781)  IND - /home/rhys/work/Databases/ourdatabase/combined_cd40.mat : (0.73387540342578295, 0.72439080016140067)  IND - /home/rhys/work/Databases/ourdatabase/combined_e01.mat : (0.74228946242637417, 0.73151942862001529) 
+results for output type  ss8  TRAIN:  (0.62366094757544266, 0.60634473143193746)  VAL:  (0.62230845527944034, 0.60216626049282429)  TEST:  (0.61872087332752446, 0.600792843452711)  IND - /home/rhys/work/Databases/ourdatabase/combined_cd40.mat : (0.61877813586941188, 0.59906551347052395)  IND - /home/rhys/work/Databases/ourdatabase/combined_e01.mat : (0.63827688326216991, 0.61600204064280251) 
+doing fold number  3
+ss
+loading mat files finished loading mat files
+TIME: 6.77203
+8094 900 999
+epoch 0 started
+ complete. time taken: 441.143 seconds
+getting raw outputs  complete. time taken: 482.653 seconds
+results for output type  ss  TRAIN:  (0.73176295049008677, 0.72357977466536072)  VAL:  (0.73259393079109547, 0.72359025109636355)  TEST:  (0.72351133247457278, 0.71776772959237423)
+results for output type  ss8  TRAIN:  (0.61539643980457259, 0.59786794337110938)  VAL:  (0.61690116988171007, 0.59717371056001867)  TEST:  (0.6070842034935805, 0.59141765100020649)
+Val loss:  379125.9375
+	NEW BEST VAL LOSS
+Total time spent on epoch: 505.21 seconds
+epoch 1 started
+ complete. time taken: 441.26 seconds
+getting raw outputs  complete. time taken: 485.29 seconds
+results for output type  ss  TRAIN:  (0.73353720310674797, 0.72484596306524174)  VAL:  (0.73484914112558497, 0.72508441029223425)  TEST:  (0.72565861474494209, 0.71931850266117714)
+results for output type  ss8  TRAIN:  (0.61719061489047489, 0.5999825206315168)  VAL:  (0.61898999674952337, 0.59929852136453599)  TEST:  (0.60921678826184744, 0.59413150387061153)
+Val loss:  376292.265625
+	NEW BEST VAL LOSS
+Total time spent on epoch: 506.275 seconds
+epoch 2 started
+ complete. time taken: 439.831 seconds
+getting raw outputs  complete. time taken: 482.665 seconds
+results for output type  ss  TRAIN:  (0.73299869949071816, 0.7244111104834644)  VAL:  (0.73359628273697985, 0.72459929367019826)  TEST:  (0.72473756683930191, 0.71852204584051482)
+results for output type  ss8  TRAIN:  (0.61684621486401447, 0.59961321568155146)  VAL:  (0.61871689084988812, 0.59896864206155165)  TEST:  (0.60856298026961009, 0.59378173711868054)
+Val loss:  373288.59375
+	NEW BEST VAL LOSS
+Total time spent on epoch: 504.452 seconds
+epoch 3 started
+ complete. time taken: 436.947 seconds
+getting raw outputs  complete. time taken: 477.855 seconds
+results for output type  ss  TRAIN:  (0.73463747681314928, 0.72601942554694965)  VAL:  (0.73528733927052847, 0.72549190825474441)  TEST:  (0.72579340667550074, 0.71930586048942058)
+results for output type  ss8  TRAIN:  (0.61864573111166188, 0.60143149632986548)  VAL:  (0.62074557695028587, 0.60042884309387978)  TEST:  (0.6102460324267639, 0.59515551978289172)
+Val loss:  374813.96875
+Total time spent on epoch: 483.878 seconds
+epoch 4 started
+ complete. time taken: 437.077 seconds
+getting raw outputs  complete. time taken: 480.695 seconds
+results for output type  ss  TRAIN:  (0.73251797009364883, 0.72412067585470385)  VAL:  (0.73222263784394248, 0.72291108782551328)  TEST:  (0.72376439780493118, 0.71740110661143441)
+results for output type  ss8  TRAIN:  (0.61658955437750196, 0.59941230952550972)  VAL:  (0.61592066241724119, 0.59680502192727136)  TEST:  (0.60688561135462704, 0.59175477558038103)
+Val loss:  368205.796875
+	NEW BEST VAL LOSS
+Total time spent on epoch: 502.099 seconds
+epoch 5 started
+ complete. time taken: 442.674 seconds
+getting raw outputs  complete. time taken: 485.278 seconds
+results for output type  ss  TRAIN:  (0.73180156990310952, 0.72367782965929084)  VAL:  (0.73435297159168766, 0.72374548841541508)  TEST:  (0.72206941104459832, 0.71567334313803987)
+results for output type  ss8  TRAIN:  (0.61831208847699837, 0.60117143743292023)  VAL:  (0.62002309050958793, 0.59986125664609768)  TEST:  (0.60794823812511023, 0.59260180108806959)
+Val loss:  369199.375
+Total time spent on epoch: 491.114 seconds
+epoch 6 started
+ complete. time taken: 439.641 seconds
+getting raw outputs  complete. time taken: 482.633 seconds
+results for output type  ss  TRAIN:  (0.73480778880262698, 0.72623525311511128)  VAL:  (0.7344613178634336, 0.72463325183374083)  TEST:  (0.72491389499907621, 0.71864003944357591)
+results for output type  ss8  TRAIN:  (0.61919309414999957, 0.60193242945103054)  VAL:  (0.62075637584001186, 0.60059863391159229)  TEST:  (0.61113002935397731, 0.59528194150045721)
+Val loss:  368034.234375
+	NEW BEST VAL LOSS
+Total time spent on epoch: 504.357 seconds
+epoch 7 started
+ complete. time taken: 434.47 seconds
+getting raw outputs  complete. time taken: 478.042 seconds
+results for output type  ss  TRAIN:  (0.7312528323437133, 0.72322485821993954)  VAL:  (0.73154437259480121, 0.7214799937905072)  TEST:  (0.720697494774722, 0.71420263715702836)
+results for output type  ss8  TRAIN:  (0.61897517051309259, 0.60188127032376271)  VAL:  (0.61890366379112294, 0.59941980052004507)  TEST:  (0.60798304380870927, 0.5925385902292869)
+Val loss:  369848.90625
+Total time spent on epoch: 483.849 seconds
+epoch 8 started
+ complete. time taken: 445.223 seconds
+getting raw outputs  complete. time taken: 491.628 seconds
+results for output type  ss  TRAIN:  (0.7360847260109129, 0.72734210214985573)  VAL:  (0.73482246703501863, 0.72536577793301504)  TEST:  (0.7260513909233085, 0.71931850266117714)
+results for output type  ss8  TRAIN:  (0.61692312552878625, 0.59940484881944989)  VAL:  (0.61524241028590221, 0.59575231885745328)  TEST:  (0.60668445542084315, 0.59108052642003195)
+Val loss:  369848.765625
+Total time spent on epoch: 497.699 seconds
+epoch 9 started
+ complete. time taken: 447.372 seconds
+getting raw outputs  complete. time taken: 490.17 seconds
+results for output type  ss  TRAIN:  (0.73680302743440207, 0.72799651265282461)  VAL:  (0.73595037079658876, 0.72593336438079714)  TEST:  (0.72539291313917209, 0.7186231832145672)
+results for output type  ss8  TRAIN:  (0.62277357189077298, 0.60542350697949054)  VAL:  (0.62265745114021431, 0.6027477005472115)  TEST:  (0.61159532814259021, 0.59623853249670244)
+Val loss:  365480.875
+	NEW BEST VAL LOSS
+Total time spent on epoch: 512.009 seconds
+epoch 10 started
+ complete. time taken: 441.426 seconds
+getting raw outputs  complete. time taken: 484.65 seconds
+results for output type  ss  TRAIN:  (0.73817175010656466, 0.72939539503905682)  VAL:  (0.73605013930129926, 0.72636026700818879)  TEST:  (0.72637257134499933, 0.71961770072608211)
+results for output type  ss8  TRAIN:  (0.62216794093153061, 0.60494868632953513)  VAL:  (0.62153418223714152, 0.6012535413513409)  TEST:  (0.60959999872362158, 0.59459083611109942)
+Val loss:  366354.40625
+Total time spent on epoch: 490.718 seconds
+epoch 11 started
+ complete. time taken: 438.974 seconds
+getting raw outputs  complete. time taken: 483.451 seconds
+results for output type  ss  TRAIN:  (0.73948836878620916, 0.73049957953592282)  VAL:  (0.73702160773942338, 0.72713160243722585)  TEST:  (0.72698891552134381, 0.72032144828719646)
+results for output type  ss8  TRAIN:  (0.62296121553336292, 0.60523485769769003)  VAL:  (0.62121467638298655, 0.60099157837544148)  TEST:  (0.61051770037958397, 0.59445598627902962)
+Val loss:  365931.15625
+Total time spent on epoch: 489.404 seconds
+epoch 12 started
+ complete. time taken: 433.799 seconds
+getting raw outputs  complete. time taken: 476.028 seconds
+results for output type  ss  TRAIN:  (0.74062876692144797, 0.73187075072821817)  VAL:  (0.73527951158985916, 0.7265397601583421)  TEST:  (0.72646621635281017, 0.71986211604670858)
+results for output type  ss8  TRAIN:  (0.62477143331831464, 0.6071751741808411)  VAL:  (0.62072362420289606, 0.60074902006442343)  TEST:  (0.6106952960710107, 0.59534093830198775)
+Val loss:  366820.75
+Total time spent on epoch: 481.921 seconds
+epoch 13 started
+ complete. time taken: 439.767 seconds
+getting raw outputs  complete. time taken: 484.174 seconds
+results for output type  ss  TRAIN:  (0.74120258075940859, 0.73236742058877757)  VAL:  (0.73563081794416774, 0.72586059688749172)  TEST:  (0.72539171055370311, 0.71837455383668847)
+results for output type  ss8  TRAIN:  (0.62511304262896483, 0.60776297123684653)  VAL:  (0.62106549032129843, 0.60098187604300068)  TEST:  (0.61012866026760149, 0.59442648787826435)
+Val loss:  367491.90625
+Total time spent on epoch: 490.257 seconds
+epoch 14 started
+ complete. time taken: 445.75 seconds
+getting raw outputs  complete. time taken: 489.989 seconds
+results for output type  ss  TRAIN:  (0.74357629092936617, 0.73460616531432488)  VAL:  (0.73598722912268466, 0.72648639732991815)  TEST:  (0.72609609845321044, 0.71864003944357591)
+results for output type  ss8  TRAIN:  (0.62591160812361979, 0.6085351543140467)  VAL:  (0.61939078900887234, 0.59988551247719957)  TEST:  (0.60920016944824873, 0.59376488088967172)
+Val loss:  370418.953125
+Total time spent on epoch: 496.22 seconds
+epoch 15 started
+ complete. time taken: 447.039 seconds
+getting raw outputs  complete. time taken: 491.202 seconds
+results for output type  ss  TRAIN:  (0.74617050747267588, 0.73710443602924169)  VAL:  (0.73634088511586149, 0.72605949470252651)  TEST:  (0.72645032307083635, 0.71892659533672421)
+results for output type  ss8  TRAIN:  (0.63106072695226156, 0.61365373157871739)  VAL:  (0.621365044529265, 0.60083148989016955)  TEST:  (0.6108822450158824, 0.59497431532104794)
+Val loss:  367191.796875
+Total time spent on epoch: 497.184 seconds
+epoch 16 started
+ complete. time taken: 447.653 seconds
+getting raw outputs  complete. time taken: 491.374 seconds
+results for output type  ss  TRAIN:  (0.74959307435698919, 0.74032106615621229)  VAL:  (0.73387175696396245, 0.72425971203477313)  TEST:  (0.72417619774942765, 0.7169628446572075)
+results for output type  ss8  TRAIN:  (0.63357887840957849, 0.615928181111837)  VAL:  (0.61894576180081917, 0.59854659060038029)  TEST:  (0.60854015721091836, 0.59243323879798226)
+Val loss:  369448.03125
+Total time spent on epoch: 497.441 seconds
+epoch 17 started
+ complete. time taken: 439.019 seconds
+getting raw outputs  complete. time taken: 482.164 seconds
+results for output type  ss  TRAIN:  (0.75225232449015111, 0.74257100194084935)  VAL:  (0.73065146418413474, 0.72090755617650482)  TEST:  (0.72115341115074993, 0.71377280331730586)
+results for output type  ss8  TRAIN:  (0.63797836095320881, 0.6199830748553955)  VAL:  (0.61851334958737481, 0.59854173943416)  TEST:  (0.6071337641959379, 0.59162835386281554)
+Val loss:  370769.9375
+Total time spent on epoch: 488.083 seconds
+epoch 18 started
+ complete. time taken: 450.048 seconds
+getting raw outputs  complete. time taken: 491.633 seconds
+results for output type  ss  TRAIN:  (0.75767769852693589, 0.74832107468273346)  VAL:  (0.7316734815537872, 0.72231924554662941)  TEST:  (0.7213757150100496, 0.71331347107681808)
+results for output type  ss8  TRAIN:  (0.64092464968078777, 0.62312456501419133)  VAL:  (0.61702222197375178, 0.59715430589513718)  TEST:  (0.60694765394158079, 0.59036413668716103)
+Val loss:  369221.65625
+Total time spent on epoch: 497.511 seconds
+epoch 19 started
+ complete. time taken: 442.288 seconds
+getting raw outputs  complete. time taken: 485.462 seconds
+results for output type  ss  TRAIN:  (0.76139276966791003, 0.75201838744299221)  VAL:  (0.72783134061088095, 0.71825396825396826)  TEST:  (0.71743243914149002, 0.70973152241246351)
+results for output type  ss8  TRAIN:  (0.64352480120430111, 0.62585731506241948)  VAL:  (0.61250150483436772, 0.59299200527806883)  TEST:  (0.60113986875376169, 0.58479736705702878)
+Val loss:  371257.8125
+Total time spent on epoch: 491.621 seconds
+it has been 10 epochs since a new best validation error has been found. stopping training
+./sequence_only/it1_onehot-ss_ss8/170615-12:24:50/network_best_train_fold_3
+Saving the best outputs of the test set to files
+Results for the best network 9
+results for output type  ss  TRAIN:  (0.73680302743440207, 0.72799651265282461)  VAL:  (0.73595037079658876, 0.72593336438079714)  TEST:  (0.72539291313917209, 0.7186231832145672)  IND - /home/rhys/work/Databases/ourdatabase/combined_cd40.mat : (0.73402799793663953, 0.72437325660953311)  IND - /home/rhys/work/Databases/ourdatabase/combined_e01.mat : (0.74157444494375702, 0.73092424113595778) 
+results for output type  ss8  TRAIN:  (0.62277357189077298, 0.60542350697949054)  VAL:  (0.62265745114021431, 0.6027477005472115)  TEST:  (0.61159532814259021, 0.59623853249670244)  IND - /home/rhys/work/Databases/ourdatabase/combined_cd40.mat : (0.61955531968904443, 0.60014151798506454)  IND - /home/rhys/work/Databases/ourdatabase/combined_e01.mat : (0.63848699062380909, 0.61629113170648753) 
+doing fold number  4
+ss
+loading mat files finished loading mat files
+TIME: 6.17882
+8094 900 999
+epoch 0 started
+ complete. time taken: 425.914 seconds
+getting raw outputs  complete. time taken: 468.882 seconds
+results for output type  ss  TRAIN:  (0.73312714194948481, 0.72451501366327009)  VAL:  (0.73562947203283313, 0.72557908555863138)  TEST:  (0.73346782326796445, 0.724291929212171)
+results for output type  ss8  TRAIN:  (0.61536357295813371, 0.59821434736308177)  VAL:  (0.61937603821274645, 0.59940702425496972)  TEST:  (0.61782452170702429, 0.59953629437607214)
+Val loss:  365837.703125
+	NEW BEST VAL LOSS
+Total time spent on epoch: 494.742 seconds
+epoch 1 started
+ complete. time taken: 425.945 seconds
+getting raw outputs  complete. time taken: 467.384 seconds
+results for output type  ss  TRAIN:  (0.73259368770426669, 0.723998226032181)  VAL:  (0.73625266260249422, 0.72572167508272656)  TEST:  (0.73325849530430276, 0.72384276786058033)
+results for output type  ss8  TRAIN:  (0.6168707970706776, 0.5996383017710466)  VAL:  (0.62234359098045866, 0.60150161519512635)  TEST:  (0.61969829367806362, 0.60116183069611451)
+Val loss:  359696.21875
+	NEW BEST VAL LOSS
+Total time spent on epoch: 493.768 seconds
+epoch 2 started
+ complete. time taken: 419.278 seconds
+getting raw outputs  complete. time taken: 461.414 seconds
+results for output type  ss  TRAIN:  (0.73458634166024095, 0.72627198538335502)  VAL:  (0.73641249237817041, 0.72679847183365209)  TEST:  (0.73464179140172936, 0.72572924553726115)
+results for output type  ss8  TRAIN:  (0.61646137694517122, 0.59943541084085539)  VAL:  (0.62067156151548097, 0.60000688363219767)  TEST:  (0.61934106060451988, 0.60084955661358008)
+Val loss:  361674.203125
+Total time spent on epoch: 467.289 seconds
+epoch 3 started
+ complete. time taken: 422.244 seconds
+getting raw outputs  complete. time taken: 466.649 seconds
+results for output type  ss  TRAIN:  (0.73379619833131815, 0.72518051715942078)  VAL:  (0.73484565693062021, 0.72521031954804038)  TEST:  (0.73244823459689834, 0.72326955242140745)
+results for output type  ss8  TRAIN:  (0.61678089811635273, 0.59958147106546955)  VAL:  (0.61994757592610339, 0.6000265511527626)  TEST:  (0.61877721718366918, 0.60012662072387701)
+Val loss:  357919.109375
+	NEW BEST VAL LOSS
+Total time spent on epoch: 491.324 seconds
+epoch 4 started
+ complete. time taken: 434.822 seconds
+getting raw outputs  complete. time taken: 478.045 seconds
+results for output type  ss  TRAIN:  (0.73281954279577777, 0.72435036395552332)  VAL:  (0.73454631895251077, 0.72382375934821841)  TEST:  (0.73266213737410735, 0.72384704558773827)
+results for output type  ss8  TRAIN:  (0.61689520720002355, 0.59977586394622862)  VAL:  (0.62005874997419574, 0.59995771483078553)  TEST:  (0.61744967010350527, 0.59969457028091833)
+Val loss:  359120.703125
+Total time spent on epoch: 484.084 seconds
+epoch 5 started
+ complete. time taken: 418.629 seconds
+getting raw outputs  complete. time taken: 459.837 seconds
+results for output type  ss  TRAIN:  (0.73504641909588986, 0.72650993076745352)  VAL:  (0.7364225601094283, 0.72652312654574425)  TEST:  (0.73569005600961157, 0.72596024280379345)
+results for output type  ss8  TRAIN:  (0.61942033774123029, 0.60262642840260572)  VAL:  (0.62352357745190201, 0.60343394909062298)  TEST:  (0.62110044777518603, 0.60279592247047298)
+Val loss:  356256.96875
+	NEW BEST VAL LOSS
+Total time spent on epoch: 486.098 seconds
+epoch 6 started
+ complete. time taken: 420.449 seconds
+getting raw outputs  complete. time taken: 460.744 seconds
+results for output type  ss  TRAIN:  (0.73371362742598101, 0.72563675618830614)  VAL:  (0.73424728212875756, 0.72443836936586992)  TEST:  (0.73279711678334458, 0.72423204103195893)
+results for output type  ss8  TRAIN:  (0.62093765782965094, 0.60395159298592249)  VAL:  (0.62270016096056957, 0.60310451812116173)  TEST:  (0.62146930699012304, 0.60309108564437541)
+Val loss:  358709.296875
+Total time spent on epoch: 466.383 seconds
+epoch 7 started
+ complete. time taken: 431.81 seconds
+getting raw outputs  complete. time taken: 475.803 seconds
+results for output type  ss  TRAIN:  (0.734983167067638, 0.72664802407072504)  VAL:  (0.73546370942923234, 0.72533324155157075)  TEST:  (0.73350772393656649, 0.72497636555745204)
+results for output type  ss8  TRAIN:  (0.62094921194204755, 0.60403285558361686)  VAL:  (0.62418990185454837, 0.60397972278629763)  TEST:  (0.62124955907914892, 0.60318519564185158)
+Val loss:  356054.5625
+	NEW BEST VAL LOSS
+Total time spent on epoch: 502.087 seconds
+epoch 8 started
+ complete. time taken: 427.691 seconds
+getting raw outputs  complete. time taken: 471.841 seconds
+results for output type  ss  TRAIN:  (0.73791479389598813, 0.72921549725539558)  VAL:  (0.73668148497431263, 0.72686730815562905)  TEST:  (0.73504181594501516, 0.72639229324675214)
+results for output type  ss8  TRAIN:  (0.62287438876055023, 0.60569634875994871)  VAL:  (0.62394677205148541, 0.60424523431392307)  TEST:  (0.62153308892373571, 0.60321513973195762)
+Val loss:  357191.375
+Total time spent on epoch: 477.495 seconds
+epoch 9 started
+ complete. time taken: 422.847 seconds
+getting raw outputs  complete. time taken: 463.701 seconds
+results for output type  ss  TRAIN:  (0.73847831862537749, 0.72984435291337035)  VAL:  (0.73690776428261562, 0.7272950767279146)  TEST:  (0.73381627181540965, 0.72489081101429187)
+results for output type  ss8  TRAIN:  (0.62104819599619343, 0.60374020400629913)  VAL:  (0.62094447987227352, 0.60102959470156991)  TEST:  (0.61960769806175064, 0.6010377766085323)
+Val loss:  357729.875
+Total time spent on epoch: 469.337 seconds
+epoch 10 started
+ complete. time taken: 423.38 seconds
+getting raw outputs  complete. time taken: 464.031 seconds
+results for output type  ss  TRAIN:  (0.73687955843976816, 0.72827274489652294)  VAL:  (0.73456122813240532, 0.72422694351979777)  TEST:  (0.73292836935221906, 0.72356471559530988)
+results for output type  ss8  TRAIN:  (0.62104223948575954, 0.6043095733182493)  VAL:  (0.62150681137642205, 0.60141802823272572)  TEST:  (0.6188108591580106, 0.60055439343967765)
+Val loss:  358446.8125
+Total time spent on epoch: 470.042 seconds
+epoch 11 started
+ complete. time taken: 413.765 seconds
+getting raw outputs  complete. time taken: 456.302 seconds
+results for output type  ss  TRAIN:  (0.74079073278335228, 0.73220681065549176)  VAL:  (0.7373754350556242, 0.72706398336127764)  TEST:  (0.73405748242059288, 0.72513891918945628)
+results for output type  ss8  TRAIN:  (0.62517924275766379, 0.60805933763015962)  VAL:  (0.62345547248379785, 0.60379779822107271)  TEST:  (0.62056512745619685, 0.60256492520394067)
+Val loss:  356471.75
+Total time spent on epoch: 462.311 seconds
+epoch 12 started
+ complete. time taken: 424.62 seconds
+getting raw outputs  complete. time taken: 465.539 seconds
+results for output type  ss  TRAIN:  (0.74192947610641247, 0.73329084308617287)  VAL:  (0.73695479454788437, 0.72693122759746487)  TEST:  (0.73426184454134924, 0.72484803374271178)
+results for output type  ss8  TRAIN:  (0.62567105148304969, 0.60837748335577346)  VAL:  (0.62270001198075486, 0.60285375723395995)  TEST:  (0.6205710783202717, 0.60224837339424819)
+Val loss:  355957.203125
+	NEW BEST VAL LOSS
+Total time spent on epoch: 493.193 seconds
+epoch 13 started
+ complete. time taken: 427.753 seconds
+getting raw outputs  complete. time taken: 471.644 seconds
+results for output type  ss  TRAIN:  (0.74511561852377917, 0.73608829473359938)  VAL:  (0.73603844700225818, 0.72552008299693682)  TEST:  (0.73161919861594027, 0.72240545153549018)
+results for output type  ss8  TRAIN:  (0.62753038817277429, 0.60992519060859307)  VAL:  (0.62078502092758592, 0.60066574557112018)  TEST:  (0.61764146342378634, 0.59927963074659174)
+Val loss:  359627.1875
+Total time spent on epoch: 477.429 seconds
+epoch 14 started
+ complete. time taken: 427.79 seconds
+getting raw outputs  complete. time taken: 471.186 seconds
+results for output type  ss  TRAIN:  (0.74845962972112678, 0.73926231619648552)  VAL:  (0.73463256062716598, 0.72422694351979777)  TEST:  (0.73127898433492511, 0.72214023245169379)
+results for output type  ss8  TRAIN:  (0.63297383965710186, 0.61522106878905447)  VAL:  (0.62101902261845776, 0.60162453719865672)  TEST:  (0.61870402773264854, 0.60100783251842627)
+Val loss:  358924.265625
+Total time spent on epoch: 477.027 seconds
+epoch 15 started
+ complete. time taken: 418.944 seconds
+getting raw outputs  complete. time taken: 462.098 seconds
+results for output type  ss  TRAIN:  (0.751274862098947, 0.74224088252243348)  VAL:  (0.73280665400502276, 0.7226781262753158)  TEST:  (0.73182196926616216, 0.72234556335527811)
+results for output type  ss8  TRAIN:  (0.63604139850126618, 0.6183940279957616)  VAL:  (0.62103439067498056, 0.60142294511286698)  TEST:  (0.61954505301266727, 0.60151260432307108)
+Val loss:  359765.984375
+Total time spent on epoch: 467.757 seconds
+epoch 16 started
+ complete. time taken: 422.23 seconds
+getting raw outputs  complete. time taken: 464.168 seconds
+results for output type  ss  TRAIN:  (0.75701494710672168, 0.74770565943535772)  VAL:  (0.73223408616600105, 0.72159149576410775)  TEST:  (0.72890146378495935, 0.71938965388909559)
+results for output type  ss8  TRAIN:  (0.64032701286262372, 0.62222824167390334)  VAL:  (0.61897493015066407, 0.59893992064155455)  TEST:  (0.61626260735333749, 0.59811181123245594)
+Val loss:  361436.28125
+Total time spent on epoch: 470.172 seconds
+epoch 17 started
+ complete. time taken: 422.771 seconds
+getting raw outputs  complete. time taken: 466.997 seconds
+results for output type  ss  TRAIN:  (0.75945419887485677, 0.75040272787386775)  VAL:  (0.72981113741888837, 0.71954115674522201)  TEST:  (0.72533411621956956, 0.71654496532902134)
+results for output type  ss8  TRAIN:  (0.64259595282626603, 0.62492902800903982)  VAL:  (0.61531562376702598, 0.59570461350863646)  TEST:  (0.61286580064779395, 0.59532273312543582)
+Val loss:  363455.203125
+Total time spent on epoch: 473.132 seconds
+epoch 18 started
+ complete. time taken: 424.457 seconds
+getting raw outputs  complete. time taken: 468.473 seconds
+results for output type  ss  TRAIN:  (0.76374240605194532, 0.75464537905283924)  VAL:  (0.73014729907071185, 0.71899538304954735)  TEST:  (0.72804991752105552, 0.71802505892569157)
+results for output type  ss8  TRAIN:  (0.64801033328146407, 0.63019728752884685)  VAL:  (0.61843136838856294, 0.59777953692822827)  TEST:  (0.61668833904967524, 0.59772253806107734)
+Val loss:  365117.390625
+Total time spent on epoch: 474.31 seconds
+epoch 19 started
+ complete. time taken: 424.999 seconds
+getting raw outputs  complete. time taken: 469.921 seconds
+results for output type  ss  TRAIN:  (0.76599170543427286, 0.75712096707802534)  VAL:  (0.72915674181644852, 0.7181152615042703)  TEST:  (0.72588148856763635, 0.71650218805744137)
+results for output type  ss8  TRAIN:  (0.64967268879242179, 0.63185653168046274)  VAL:  (0.6159565295290208, 0.59554727334411772)  TEST:  (0.61412913543093439, 0.59545534266733402)
+Val loss:  368695.296875
+Total time spent on epoch: 476.045 seconds
+epoch 20 started
+ complete. time taken: 416.6 seconds
+getting raw outputs  complete. time taken: 460.798 seconds
+results for output type  ss  TRAIN:  (0.76991648859086492, 0.76121171562339829)  VAL:  (0.72576100205306371, 0.71493404005290562)  TEST:  (0.72359137791105743, 0.71505203855087718)
+results for output type  ss8  TRAIN:  (0.65242734568102689, 0.6348356291345002)  VAL:  (0.61241847026707219, 0.59233163373176456)  TEST:  (0.61195531020290117, 0.59412496952119398)
+Val loss:  368871.0
+Total time spent on epoch: 466.748 seconds
+epoch 21 started
+ complete. time taken: 419.27 seconds
+getting raw outputs  complete. time taken: 461.177 seconds
+results for output type  ss  TRAIN:  (0.77318145404994121, 0.76433421766160237)  VAL:  (0.72599765599034405, 0.71485536997064625)  TEST:  (0.72383276563957111, 0.71389277449105737)
+results for output type  ss8  TRAIN:  (0.65565849611989524, 0.63812915441752516)  VAL:  (0.61251954570704081, 0.59147117970705232)  TEST:  (0.61131291762278772, 0.59282026273800204)
+Val loss:  376128.40625
+Total time spent on epoch: 467.415 seconds
+epoch 22 started
+ complete. time taken: 426.481 seconds
+getting raw outputs  complete. time taken: 470.395 seconds
+results for output type  ss  TRAIN:  (0.77392894124093325, 0.76536513728333289)  VAL:  (0.72594849027287911, 0.71581907847832393)  TEST:  (0.72382523495953788, 0.71389277449105737)
+results for output type  ss8  TRAIN:  (0.65728473166809298, 0.64005980502287829)  VAL:  (0.61445146073329826, 0.5945540635555927)  TEST:  (0.61185380517511301, 0.59337208954138487)
+Val loss:  373501.546875
+Total time spent on epoch: 476.343 seconds
+it has been 10 epochs since a new best validation error has been found. stopping training
+./sequence_only/it1_onehot-ss_ss8/170615-12:24:50/network_best_train_fold_4
+Saving the best outputs of the test set to files
+Results for the best network 12
+results for output type  ss  TRAIN:  (0.74192947610641247, 0.73329084308617287)  VAL:  (0.73695479454788437, 0.72693122759746487)  TEST:  (0.73426184454134924, 0.72484803374271178)  IND - /home/rhys/work/Databases/ourdatabase/combined_cd40.mat : (0.7358637750503505, 0.72636737367180693)  IND - /home/rhys/work/Databases/ourdatabase/combined_e01.mat : (0.74276941091029547, 0.73243771788113254) 
+results for output type  ss8  TRAIN:  (0.62567105148304969, 0.60837748335577346)  VAL:  (0.62270001198075486, 0.60285375723395995)  TEST:  (0.6205710783202717, 0.60224837339424819)  IND - /home/rhys/work/Databases/ourdatabase/combined_cd40.mat : (0.61864261398168918, 0.59930527534604661)  IND - /home/rhys/work/Databases/ourdatabase/combined_e01.mat : (0.63736753899722187, 0.61513476745174733) 
+doing fold number  5
+ss
+loading mat files finished loading mat files
+TIME: 6.22535
+8094 900 999
+epoch 0 started
+ complete. time taken: 422.418 seconds
+getting raw outputs  complete. time taken: 468.411 seconds
+results for output type  ss  TRAIN:  (0.73223539520965775, 0.72362134941626666)  VAL:  (0.73517543105249439, 0.72533139835006966)  TEST:  (0.73360002108102329, 0.72584253733657633)
+results for output type  ss8  TRAIN:  (0.61573191886140732, 0.59865761436960396)  VAL:  (0.6206832113467331, 0.6006564657985215)  TEST:  (0.61426056247828242, 0.59843963901699915)
+Val loss:  365421.9375
+	NEW BEST VAL LOSS
+Total time spent on epoch: 499.375 seconds
+epoch 1 started
+ complete. time taken: 420.035 seconds
+getting raw outputs  complete. time taken: 464.857 seconds
+results for output type  ss  TRAIN:  (0.73198242045966477, 0.72382729199799245)  VAL:  (0.73502888965491098, 0.72514147130153594)  TEST:  (0.73229880276432968, 0.7246906524541793)
+results for output type  ss8  TRAIN:  (0.61610132201280887, 0.59914361768586188)  VAL:  (0.62201518929779243, 0.60154279202501193)  TEST:  (0.61477920853512769, 0.59875419219642301)
+Val loss:  363059.328125
+	NEW BEST VAL LOSS
+Total time spent on epoch: 494.353 seconds
+epoch 2 started
+ complete. time taken: 419.867 seconds
+getting raw outputs  complete. time taken: 461.293 seconds
+results for output type  ss  TRAIN:  (0.73377952261369672, 0.72537053782249339)  VAL:  (0.73698149119419265, 0.72705048163551533)  TEST:  (0.73444030491835988, 0.72644949206307008)
+results for output type  ss8  TRAIN:  (0.61824932357273077, 0.60098174787545611)  VAL:  (0.62320853136133725, 0.6023609393110031)  TEST:  (0.61572800843615183, 0.59943203214644891)
+Val loss:  362119.6875
+	NEW BEST VAL LOSS
+Total time spent on epoch: 491.154 seconds
+epoch 3 started
+ complete. time taken: 424.192 seconds
+getting raw outputs  complete. time taken: 466.001 seconds
+results for output type  ss  TRAIN:  (0.7323050317265688, 0.72354458418657441)  VAL:  (0.73618605550641592, 0.72623233434952417)  TEST:  (0.73156645320716818, 0.72340142745118885)
+results for output type  ss8  TRAIN:  (0.61726319189975498, 0.59996632918201087)  VAL:  (0.62266042706764479, 0.60202491453282814)  TEST:  (0.61446888809452094, 0.59835103248758403)
+Val loss:  360122.359375
+	NEW BEST VAL LOSS
+Total time spent on epoch: 497.638 seconds
+epoch 4 started
+ complete. time taken: 425.481 seconds
+getting raw outputs  complete. time taken: 469.043 seconds
+results for output type  ss  TRAIN:  (0.73369300077228017, 0.72508783001107535)  VAL:  (0.73668111123616076, 0.72666575761412666)  TEST:  (0.73297176373197781, 0.72437609927475555)
+results for output type  ss8  TRAIN:  (0.61708529919539834, 0.59974556296972381)  VAL:  (0.62110044394614705, 0.60079282367952003)  TEST:  (0.61367761581029578, 0.59739851229637109)
+Val loss:  361642.421875
+Total time spent on epoch: 475.366 seconds
+epoch 5 started
+ complete. time taken: 430.461 seconds
+getting raw outputs  complete. time taken: 473.937 seconds
+results for output type  ss  TRAIN:  (0.73315370451481865, 0.72454570866483559)  VAL:  (0.73316919011029313, 0.72343212786473299)  TEST:  (0.73395740423521472, 0.72592671353952076)
+results for output type  ss8  TRAIN:  (0.61719994432029412, 0.59975403361575874)  VAL:  (0.61916252562384333, 0.59914678925889486)  TEST:  (0.61443729702992977, 0.59840862673170381)
+Val loss:  360666.125
+Total time spent on epoch: 479.943 seconds
+epoch 6 started
+ complete. time taken: 429.276 seconds
+getting raw outputs  complete. time taken: 474.072 seconds
+results for output type  ss  TRAIN:  (0.73378127355725642, 0.72517094822529382)  VAL:  (0.73447772529772692, 0.72476648712878999)  TEST:  (0.7339127753873026, 0.72625012737188599)
+results for output type  ss8  TRAIN:  (0.61839646826047967, 0.6011400430732351)  VAL:  (0.62004703904866332, 0.60014025382045566)  TEST:  (0.61617930888066297, 0.6007522694347347)
+Val loss:  360481.484375
+Total time spent on epoch: 479.526 seconds
+epoch 7 started
+ complete. time taken: 419.601 seconds
+getting raw outputs  complete. time taken: 462.632 seconds
+results for output type  ss  TRAIN:  (0.73547743760642392, 0.7267697826643994)  VAL:  (0.73574571283598678, 0.72639304185212961)  TEST:  (0.7337132170390086, 0.72557671774833088)
+results for output type  ss8  TRAIN:  (0.62032881510647964, 0.60288393732569001)  VAL:  (0.62323857826601847, 0.60293072045660412)  TEST:  (0.61732184606583507, 0.60097821608474333)
+Val loss:  358658.15625
+	NEW BEST VAL LOSS
+Total time spent on epoch: 494.245 seconds
+epoch 8 started
+ complete. time taken: 421.971 seconds
+getting raw outputs  complete. time taken: 462.86 seconds
+results for output type  ss  TRAIN:  (0.7349824590257874, 0.72648072186845514)  VAL:  (0.73561374384808897, 0.72602292760370502)  TEST:  (0.7330789224151778, 0.72550140219832804)
+results for output type  ss8  TRAIN:  (0.6210727687909311, 0.60364364839195372)  VAL:  (0.62323489192101111, 0.60289663098635449)  TEST:  (0.61732658337577473, 0.60164719538182765)
+Val loss:  360384.484375
+Total time spent on epoch: 468.567 seconds
+epoch 9 started
+ complete. time taken: 431.433 seconds
+getting raw outputs  complete. time taken: 475.199 seconds
+results for output type  ss  TRAIN:  (0.73642543198925392, 0.72756919988395219)  VAL:  (0.7363715967291804, 0.72658783882498468)  TEST:  (0.73295900977914619, 0.725226721957141)
+results for output type  ss8  TRAIN:  (0.62100158764527813, 0.60369658992967246)  VAL:  (0.62302475266190183, 0.60237554908396729)  TEST:  (0.61658018418014415, 0.60115542914357356)
+Val loss:  358957.109375
+Total time spent on epoch: 480.845 seconds
+epoch 10 started
+ complete. time taken: 418.947 seconds
+getting raw outputs  complete. time taken: 462.54 seconds
+results for output type  ss  TRAIN:  (0.7354083190901014, 0.72713137336701827)  VAL:  (0.7342160049604356, 0.72512686152857186)  TEST:  (0.73406283383242155, 0.72663113544837121)
+results for output type  ss8  TRAIN:  (0.62087710661665507, 0.60405606297078263)  VAL:  (0.62208181214884972, 0.60259469567842916)  TEST:  (0.61696174400109194, 0.60132378154946242)
+Val loss:  361652.15625
+Total time spent on epoch: 468.465 seconds
+epoch 11 started
+ complete. time taken: 421.737 seconds
+getting raw outputs  complete. time taken: 464.873 seconds
+results for output type  ss  TRAIN:  (0.73785377013770903, 0.72893456214171815)  VAL:  (0.73596917338027323, 0.72617389525766773)  TEST:  (0.73354862489310224, 0.72573620950127815)
+results for output type  ss8  TRAIN:  (0.62324038406214233, 0.60596037008252523)  VAL:  (0.62420048600048583, 0.60339336326713477)  TEST:  (0.61710372609976583, 0.60187314203183628)
+Val loss:  358693.359375
+Total time spent on epoch: 470.561 seconds
+epoch 12 started
+ complete. time taken: 424.804 seconds
+getting raw outputs  complete. time taken: 468.144 seconds
+results for output type  ss  TRAIN:  (0.74007123312532019, 0.73120840118673747)  VAL:  (0.73826625618436148, 0.72839945067253653)  TEST:  (0.73497665285299441, 0.72643620108365781)
+results for output type  ss8  TRAIN:  (0.62424019390308016, 0.60696255339154082)  VAL:  (0.62506268319778491, 0.60416768123423359)  TEST:  (0.61732708713248985, 0.60131492089652083)
+Val loss:  358394.4375
+	NEW BEST VAL LOSS
+Total time spent on epoch: 500.018 seconds
+epoch 13 started
+ complete. time taken: 413.052 seconds
+getting raw outputs  complete. time taken: 453.692 seconds
+results for output type  ss  TRAIN:  (0.74135454875802964, 0.73216452535793775)  VAL:  (0.73722849364674148, 0.7280342063484333)  TEST:  (0.73368024793971398, 0.72525330391596554)
+results for output type  ss8  TRAIN:  (0.62602238750754602, 0.60842956340172671)  VAL:  (0.62411342137319481, 0.60365633918048911)  TEST:  (0.61645506412871953, 0.60022949091118527)
+Val loss:  359185.46875
+Total time spent on epoch: 459.274 seconds
+epoch 14 started
+ complete. time taken: 418.572 seconds
+getting raw outputs  complete. time taken: 460.426 seconds
+results for output type  ss  TRAIN:  (0.74352760940197993, 0.73441983486475559)  VAL:  (0.73572571937776909, 0.7264076516250938)  TEST:  (0.73314678196174254, 0.72555013578950633)
+results for output type  ss8  TRAIN:  (0.62799318311535635, 0.61042863586598595)  VAL:  (0.62426649914044618, 0.60426020979633976)  TEST:  (0.61544005915557021, 0.5999725319758813)
+Val loss:  360130.46875
+Total time spent on epoch: 466.639 seconds
+epoch 15 started
+ complete. time taken: 420.2 seconds
+getting raw outputs  complete. time taken: 465.085 seconds
+results for output type  ss  TRAIN:  (0.74557527442696536, 0.73633420086866475)  VAL:  (0.73575799793390184, 0.72635408245755861)  TEST:  (0.73210693450187081, 0.72382230846591089)
+results for output type  ss8  TRAIN:  (0.62949391195120419, 0.61184270433845311)  VAL:  (0.62300520726546127, 0.60315960689970882)  TEST:  (0.61501775564148065, 0.59886495035819187)
+Val loss:  361604.015625
+Total time spent on epoch: 471.295 seconds
+epoch 16 started
+ complete. time taken: 427.245 seconds
+getting raw outputs  complete. time taken: 471.461 seconds
+results for output type  ss  TRAIN:  (0.74695907080467394, 0.7376513863271067)  VAL:  (0.73547882705461209, 0.72571612237145833)  TEST:  (0.7324346508273577, 0.72409255838062703)
+results for output type  ss8  TRAIN:  (0.6324894855371711, 0.61470842977516793)  VAL:  (0.62443796737035384, 0.60408489252077024)  TEST:  (0.61559353074305834, 0.59917064288467414)
+Val loss:  362001.484375
+Total time spent on epoch: 477.359 seconds
+epoch 17 started
+ complete. time taken: 425.91 seconds
+getting raw outputs  complete. time taken: 470.178 seconds
+results for output type  ss  TRAIN:  (0.75169570046290846, 0.74236318318407346)  VAL:  (0.73213243014492591, 0.72219516708710352)  TEST:  (0.73011227661641853, 0.72133246498934511)
+results for output type  ss8  TRAIN:  (0.6362816381426315, 0.61851333809101283)  VAL:  (0.61929116911532545, 0.59916139903185905)  TEST:  (0.61272211280887379, 0.59656561091986871)
+Val loss:  364891.75
+Total time spent on epoch: 475.989 seconds
+epoch 18 started
+ complete. time taken: 421.177 seconds
+getting raw outputs  complete. time taken: 461.928 seconds
+results for output type  ss  TRAIN:  (0.75489238859781982, 0.74529032080454194)  VAL:  (0.73223882291664566, 0.72307662338927248)  TEST:  (0.72880144236216726, 0.72064133405990682)
+results for output type  ss8  TRAIN:  (0.63868118893843429, 0.62061194064618319)  VAL:  (0.61990739008605056, 0.60036427033923889)  TEST:  (0.6141042771052615, 0.59811179485816313)
+Val loss:  366908.140625
+Total time spent on epoch: 467.742 seconds
+epoch 19 started
+ complete. time taken: 422.881 seconds
+getting raw outputs  complete. time taken: 468.039 seconds
+results for output type  ss  TRAIN:  (0.7562244929956714, 0.74617762097670781)  VAL:  (0.72549819774418234, 0.71556720008571062)  TEST:  (0.7239973919113033, 0.71418191806554221)
+results for output type  ss8  TRAIN:  (0.64187780041488374, 0.62362749063464196)  VAL:  (0.61634589696073661, 0.59611769633099898)  TEST:  (0.60799590692156547, 0.59118719458436897)
+Val loss:  368016.28125
+Total time spent on epoch: 474.276 seconds
+epoch 20 started
+ complete. time taken: 420.53 seconds
+getting raw outputs  complete. time taken: 464.434 seconds
+results for output type  ss  TRAIN:  (0.76336603295773198, 0.75359525982647879)  VAL:  (0.72804751340354179, 0.71854759377039279)  TEST:  (0.72761711098982673, 0.71938755166868251)
+results for output type  ss8  TRAIN:  (0.64696615912077682, 0.62891158551434823)  VAL:  (0.61678052336596512, 0.59716473006009485)  TEST:  (0.61084941528069459, 0.59527638591687826)
+Val loss:  370172.0
+Total time spent on epoch: 470.74 seconds
+epoch 21 started
+ complete. time taken: 417.279 seconds
+getting raw outputs  complete. time taken: 462.081 seconds
+results for output type  ss  TRAIN:  (0.76499197287627296, 0.75524015340339967)  VAL:  (0.72718063432824642, 0.71848428475421489)  TEST:  (0.7263392988620524, 0.71891350673631138)
+results for output type  ss8  TRAIN:  (0.64907539666180381, 0.63080053958015248)  VAL:  (0.61509935123733805, 0.59567940314207513)  TEST:  (0.61103177050658875, 0.59626434871985712)
+Val loss:  375108.53125
+Total time spent on epoch: 468.005 seconds
+epoch 22 started
+ complete. time taken: 428.137 seconds
+getting raw outputs  complete. time taken: 472.095 seconds
+results for output type  ss  TRAIN:  (0.7677837659108816, 0.75827105643779691)  VAL:  (0.72139405214951113, 0.71295692064945315)  TEST:  (0.72485750417941541, 0.71627303215973981)
+results for output type  ss8  TRAIN:  (0.65276856281867979, 0.63481933170838112)  VAL:  (0.61062851869708357, 0.5918419027768308)  TEST:  (0.60928778571406783, 0.59233907946676589)
+Val loss:  374750.0625
+Total time spent on epoch: 477.889 seconds
+it has been 10 epochs since a new best validation error has been found. stopping training
+./sequence_only/it1_onehot-ss_ss8/170615-12:24:50/network_best_train_fold_5
+Saving the best outputs of the test set to files
+Results for the best network 12
+results for output type  ss  TRAIN:  (0.74007123312532019, 0.73120840118673747)  VAL:  (0.73826625618436148, 0.72839945067253653)  TEST:  (0.73497665285299441, 0.72643620108365781)  IND - /home/rhys/work/Databases/ourdatabase/combined_cd40.mat : (0.73432339354518306, 0.72509254223610109)  IND - /home/rhys/work/Databases/ourdatabase/combined_e01.mat : (0.74315974633054738, 0.73223365360088433) 
+results for output type  ss8  TRAIN:  (0.62424019390308016, 0.60696255339154082)  VAL:  (0.62506268319778491, 0.60416768123423359)  TEST:  (0.61732708713248985, 0.60131492089652083)  IND - /home/rhys/work/Databases/ourdatabase/combined_cd40.mat : (0.61966679260718371, 0.60082571650789751)  IND - /home/rhys/work/Databases/ourdatabase/combined_e01.mat : (0.63953908240519031, 0.61816172094209676) 
+doing fold number  6
+ss
+loading mat files finished loading mat files
+TIME: 6.2063
+8094 900 999
+epoch 0 started
+ complete. time taken: 439.53 seconds
+getting raw outputs  complete. time taken: 482.494 seconds
+results for output type  ss  TRAIN:  (0.73023533046302247, 0.72167208610272704)  VAL:  (0.73502986662177039, 0.72540943510673683)  TEST:  (0.73712917123625188, 0.72729759418540529)
+results for output type  ss8  TRAIN:  (0.61378883526026473, 0.59649531346972984)  VAL:  (0.62149303536107481, 0.60147827107832585)  TEST:  (0.620972253194088, 0.60184007259559646)
+Val loss:  363655.65625
+	NEW BEST VAL LOSS
+Total time spent on epoch: 518.31 seconds
+epoch 1 started
+ complete. time taken: 434.297 seconds
+getting raw outputs  complete. time taken: 477.489 seconds
+results for output type  ss  TRAIN:  (0.73207377614053437, 0.72370954651785757)  VAL:  (0.73563066824422918, 0.72637309957540064)  TEST:  (0.738040251064353, 0.72887368279371478)
+results for output type  ss8  TRAIN:  (0.61530918993196337, 0.59831953277918937)  VAL:  (0.6228301557265139, 0.60319036531199244)  TEST:  (0.62308019619450339, 0.60453201457122141)
+Val loss:  360178.609375
+	NEW BEST VAL LOSS
+Total time spent on epoch: 512.732 seconds
+epoch 2 started
+ complete. time taken: 440.594 seconds
+getting raw outputs  complete. time taken: 482.443 seconds
+results for output type  ss  TRAIN:  (0.73132011468931579, 0.72332709169897991)  VAL:  (0.73532759684831794, 0.72579098753595395)  TEST:  (0.73668528378059606, 0.72726285945023594)
+results for output type  ss8  TRAIN:  (0.61548939205085074, 0.59872957102467128)  VAL:  (0.62332853914849196, 0.60357191774120966)  TEST:  (0.62267100938631759, 0.60348997251614078)
+Val loss:  361273.1875
+Total time spent on epoch: 488.294 seconds
+epoch 3 started
+ complete. time taken: 437.823 seconds
+getting raw outputs  complete. time taken: 478.73 seconds
+results for output type  ss  TRAIN:  (0.73235495996220878, 0.72381404526864668)  VAL:  (0.73584734576280286, 0.72664703465278724)  TEST:  (0.73842159153010012, 0.72815293703895068)
+results for output type  ss8  TRAIN:  (0.6150124244770877, 0.59792699940059091)  VAL:  (0.62185232819402425, 0.60194787406813155)  TEST:  (0.61991619042292345, 0.60075461212155423)
+Val loss:  359295.140625
+	NEW BEST VAL LOSS
+Total time spent on epoch: 513.74 seconds
+epoch 4 started
+ complete. time taken: 432.636 seconds
+getting raw outputs  complete. time taken: 475.888 seconds
+results for output type  ss  TRAIN:  (0.72941897701567093, 0.72134214588449974)  VAL:  (0.73258418359003463, 0.72301250317960353)  TEST:  (0.73173020289205504, 0.72199186338828658)
+results for output type  ss8  TRAIN:  (0.61762633299790959, 0.60093094064789221)  VAL:  (0.62509763086274639, 0.60536227913984386)  TEST:  (0.62466568704519754, 0.60592574581989167)
+Val loss:  360923.359375
+Total time spent on epoch: 481.76 seconds
+epoch 5 started
+ complete. time taken: 442.14 seconds
+getting raw outputs  complete. time taken: 485.778 seconds
+results for output type  ss  TRAIN:  (0.73276735539893034, 0.72460282517942487)  VAL:  (0.73518333032219718, 0.72583990451405878)  TEST:  (0.73811732970706811, 0.72858712122856761)
+results for output type  ss8  TRAIN:  (0.6171610487440109, 0.60042011680520269)  VAL:  (0.62226654049949626, 0.60304850607548866)  TEST:  (0.62294094780510378, 0.60401099354368115)
+Val loss:  360762.3125
+Total time spent on epoch: 491.651 seconds
+epoch 6 started
+ complete. time taken: 435.259 seconds
+getting raw outputs  complete. time taken: 480.332 seconds
+results for output type  ss  TRAIN:  (0.72929244480440036, 0.72155697834170562)  VAL:  (0.73209399843358269, 0.72307120355332932)  TEST:  (0.73231705091453603, 0.72302087991767872)
+results for output type  ss8  TRAIN:  (0.61812002684237333, 0.60144600809467486)  VAL:  (0.625073821762684, 0.6050492104799734)  TEST:  (0.62310185129378215, 0.6038937638124845)
+Val loss:  362599.265625
+Total time spent on epoch: 486.061 seconds
+epoch 7 started
+ complete. time taken: 433.918 seconds
+getting raw outputs  complete. time taken: 475.606 seconds
+results for output type  ss  TRAIN:  (0.73480315794541762, 0.72629443186097953)  VAL:  (0.73684750115570952, 0.72774766666014445)  TEST:  (0.73953792304318633, 0.73021097009773483)
+results for output type  ss8  TRAIN:  (0.61935555213153271, 0.60244643775958917)  VAL:  (0.62588388023104213, 0.60569491459095626)  TEST:  (0.62637168777708907, 0.60685055814377575)
+Val loss:  356104.0625
+	NEW BEST VAL LOSS
+Total time spent on epoch: 510.169 seconds
+epoch 8 started
+ complete. time taken: 430.767 seconds
+getting raw outputs  complete. time taken: 472.696 seconds
+results for output type  ss  TRAIN:  (0.73411819392520106, 0.72576132909680191)  VAL:  (0.73477698228995247, 0.72600133054180449)  TEST:  (0.7374088655593638, 0.72788808468328436)
+results for output type  ss8  TRAIN:  (0.61963387150526428, 0.6028506410494433)  VAL:  (0.62451795882208594, 0.6050198602931105)  TEST:  (0.62499353956017589, 0.60641637395415882)
+Val loss:  357657.625
+Total time spent on epoch: 478.625 seconds
+epoch 9 started
+ complete. time taken: 447.139 seconds
+getting raw outputs  complete. time taken: 490.499 seconds
+results for output type  ss  TRAIN:  (0.73567158873524374, 0.72747044064524002)  VAL:  (0.7377330832591914, 0.72839826246893769)  TEST:  (0.73946641403853952, 0.72992440853258767)
+results for output type  ss8  TRAIN:  (0.62076415192108292, 0.60397572658458831)  VAL:  (0.62660902360963877, 0.60611070890484664)  TEST:  (0.62588371838125301, 0.60677674683154093)
+Val loss:  355967.453125
+	NEW BEST VAL LOSS
+Total time spent on epoch: 526.098 seconds
+epoch 10 started
+ complete. time taken: 439.222 seconds
+getting raw outputs  complete. time taken: 481.798 seconds
+results for output type  ss  TRAIN:  (0.73616700648053879, 0.72786456537537325)  VAL:  (0.73730311701302753, 0.7278993092922692)  TEST:  (0.73958577486987354, 0.72987230642983369)
+results for output type  ss8  TRAIN:  (0.62150198157001668, 0.6047273749595532)  VAL:  (0.62567236727555109, 0.60588569080556476)  TEST:  (0.62555997177333367, 0.6062340165945197)
+Val loss:  355247.046875
+	NEW BEST VAL LOSS
+Total time spent on epoch: 518.229 seconds
+epoch 11 started
+ complete. time taken: 433.864 seconds
+getting raw outputs  complete. time taken: 477.272 seconds
+results for output type  ss  TRAIN:  (0.73565042181430806, 0.72740890838589212)  VAL:  (0.73539524316441462, 0.72625569882794916)  TEST:  (0.73746171404932792, 0.72815293703895068)
+results for output type  ss8  TRAIN:  (0.61873717830812491, 0.60196478869503867)  VAL:  (0.6220685880601915, 0.60251041931633631)  TEST:  (0.62088485113026493, 0.60192256759162377)
+Val loss:  358067.609375
+Total time spent on epoch: 483.507 seconds
+epoch 12 started
+ complete. time taken: 447.924 seconds
+getting raw outputs  complete. time taken: 490.173 seconds
+results for output type  ss  TRAIN:  (0.73753296252261835, 0.72902784334735493)  VAL:  (0.7371230723190888, 0.72742481460465303)  TEST:  (0.73947175346782645, 0.72943812224021676)
+results for output type  ss8  TRAIN:  (0.62256548208072349, 0.60563020173032955)  VAL:  (0.62701169941445722, 0.60627702663040284)  TEST:  (0.62545241974043519, 0.60622099106883121)
+Val loss:  357971.0625
+Total time spent on epoch: 495.821 seconds
+epoch 13 started
+ complete. time taken: 439.785 seconds
+getting raw outputs  complete. time taken: 483.576 seconds
+results for output type  ss  TRAIN:  (0.73920413962931486, 0.73067966624053804)  VAL:  (0.73762726693898506, 0.72835423718864345)  TEST:  (0.73948905447592095, 0.72911248409800411)
+results for output type  ss8  TRAIN:  (0.62386139528569329, 0.60695155395477374)  VAL:  (0.62573082321633344, 0.6057927485471658)  TEST:  (0.62536592130520485, 0.60602126634160747)
+Val loss:  356516.640625
+Total time spent on epoch: 489.414 seconds
+epoch 14 started
+ complete. time taken: 441.854 seconds
+getting raw outputs  complete. time taken: 486.973 seconds
+results for output type  ss  TRAIN:  (0.73962014288860067, 0.73114168863615869)  VAL:  (0.73647032423739789, 0.72739546441779013)  TEST:  (0.73810675437171558, 0.72872606016924502)
+results for output type  ss8  TRAIN:  (0.62510559429034029, 0.60822357428163742)  VAL:  (0.62524384499007235, 0.60574383156906098)  TEST:  (0.62505616923560492, 0.6062340165945197)
+Val loss:  356881.203125
+Total time spent on epoch: 493.253 seconds
+epoch 15 started
+ complete. time taken: 442.218 seconds
+getting raw outputs  complete. time taken: 485.875 seconds
+results for output type  ss  TRAIN:  (0.74163715737340785, 0.73325924707854384)  VAL:  (0.73529998780303896, 0.72664214295497687)  TEST:  (0.73830441561930615, 0.7290430146276653)
+results for output type  ss8  TRAIN:  (0.62552521078915735, 0.60850418260228412)  VAL:  (0.62407161311504622, 0.60447199013833719)  TEST:  (0.62373176471390313, 0.60437136642106315)
+Val loss:  357459.40625
+Total time spent on epoch: 492.02 seconds
+epoch 16 started
+ complete. time taken: 446.049 seconds
+getting raw outputs  complete. time taken: 488.697 seconds
+results for output type  ss  TRAIN:  (0.7449609767366745, 0.73644831555440038)  VAL:  (0.7355718884763407, 0.72612362298706634)  TEST:  (0.73796342143759941, 0.72775348758450309)
+results for output type  ss8  TRAIN:  (0.62891380577729894, 0.61190437038176526)  VAL:  (0.62300215514155577, 0.60338603322441153)  TEST:  (0.62352876174496019, 0.60462319325104097)
+Val loss:  360302.109375
+Total time spent on epoch: 494.489 seconds
+epoch 17 started
+ complete. time taken: 438.546 seconds
+getting raw outputs  complete. time taken: 480.609 seconds
+results for output type  ss  TRAIN:  (0.74732217626705466, 0.73829322243381301)  VAL:  (0.73260476026966781, 0.72392235897235213)  TEST:  (0.73624190235255971, 0.72628160318170176)
+results for output type  ss8  TRAIN:  (0.63169450340879518, 0.61436088670107525)  VAL:  (0.62260851465821287, 0.60266695364627154)  TEST:  (0.62312624947580442, 0.60362022777302582)
+Val loss:  359760.859375
+Total time spent on epoch: 486.548 seconds
+epoch 18 started
+ complete. time taken: 449.958 seconds
+getting raw outputs  complete. time taken: 494.828 seconds
+results for output type  ss  TRAIN:  (0.74988146283951684, 0.74130458998827709)  VAL:  (0.73328416709707378, 0.72419629404973873)  TEST:  (0.73673369663743937, 0.7274495586517713)
+results for output type  ss8  TRAIN:  (0.63469848148844643, 0.61764437536799999)  VAL:  (0.62267853265671647, 0.60305828947110962)  TEST:  (0.62322017195292301, 0.60457543299018313)
+Val loss:  359014.46875
+Total time spent on epoch: 500.649 seconds
+epoch 19 started
+ complete. time taken: 445.282 seconds
+getting raw outputs  complete. time taken: 487.168 seconds
+results for output type  ss  TRAIN:  (0.7507246269310166, 0.74240209209681784)  VAL:  (0.72818917665773719, 0.71966658187723798)  TEST:  (0.73275807448021335, 0.72372425830485809)
+results for output type  ss8  TRAIN:  (0.63388573316144103, 0.61693091942987177)  VAL:  (0.6164469472370977, 0.59752088754965071)  TEST:  (0.61880233495686476, 0.60025530030349472)
+Val loss:  363390.953125
+Total time spent on epoch: 492.982 seconds
+epoch 20 started
+ complete. time taken: 443.14 seconds
+getting raw outputs  complete. time taken: 486.568 seconds
+results for output type  ss  TRAIN:  (0.7572049263174111, 0.7484375580180247)  VAL:  (0.73155432251027275, 0.7222493983211693)  TEST:  (0.73500642399421667, 0.72522653560093264)
+results for output type  ss8  TRAIN:  (0.64070282237717169, 0.62339127621088586)  VAL:  (0.62160155687642549, 0.60147827107832585)  TEST:  (0.62036188263100311, 0.60129300051667922)
+Val loss:  363086.984375
+Total time spent on epoch: 492.538 seconds
+it has been 10 epochs since a new best validation error has been found. stopping training
+./sequence_only/it1_onehot-ss_ss8/170615-12:24:50/network_best_train_fold_6
+Saving the best outputs of the test set to files
+Results for the best network 10
+results for output type  ss  TRAIN:  (0.73616700648053879, 0.72786456537537325)  VAL:  (0.73730311701302753, 0.7278993092922692)  TEST:  (0.73958577486987354, 0.72987230642983369)  IND - /home/rhys/work/Databases/ourdatabase/combined_cd40.mat : (0.73456828771684979, 0.72539663046847136)  IND - /home/rhys/work/Databases/ourdatabase/combined_e01.mat : (0.74274215451889047, 0.73264178216138087) 
+results for output type  ss8  TRAIN:  (0.62150198157001668, 0.6047273749595532)  VAL:  (0.62567236727555109, 0.60588569080556476)  TEST:  (0.62555997177333367, 0.6062340165945197)  IND - /home/rhys/work/Databases/ourdatabase/combined_cd40.mat : (0.62040727529729678, 0.6010128477278176)  IND - /home/rhys/work/Databases/ourdatabase/combined_e01.mat : (0.63935897726277091, 0.61754952810135189) 
+doing fold number  7
+ss
+loading mat files finished loading mat files
+TIME: 6.41041
+8094 900 999
+epoch 0 started
+ complete. time taken: 427.783 seconds
+getting raw outputs  complete. time taken: 469.753 seconds
+results for output type  ss  TRAIN:  (0.72968627772950223, 0.72095197773768593)  VAL:  (0.73192824991649941, 0.72305485165501537)  TEST:  (0.72942932887176837, 0.71823318661934688)
+results for output type  ss8  TRAIN:  (0.61383297639342704, 0.59688170167137555)  VAL:  (0.61752454761434528, 0.5986501543103363)  TEST:  (0.6134040755698168, 0.59401440694774421)
+Val loss:  362826.9375
+	NEW BEST VAL LOSS
+Total time spent on epoch: 511.808 seconds
+epoch 1 started
+ complete. time taken: 429.201 seconds
+getting raw outputs  complete. time taken: 472.219 seconds
+results for output type  ss  TRAIN:  (0.73238949652535557, 0.72380391122306564)  VAL:  (0.73642508853093736, 0.72676717380372513)  TEST:  (0.73023179101139912, 0.7196215538741354)
+results for output type  ss8  TRAIN:  (0.61707354740327536, 0.60013201228852509)  VAL:  (0.62350757808043777, 0.60366893777300112)  TEST:  (0.61519874707326572, 0.59568129164574268)
+Val loss:  357725.046875
+	NEW BEST VAL LOSS
+Total time spent on epoch: 515.824 seconds
+epoch 2 started
+ complete. time taken: 431.132 seconds
+getting raw outputs  complete. time taken: 473.746 seconds
+results for output type  ss  TRAIN:  (0.73354945756790457, 0.72531285103992915)  VAL:  (0.73714774105168845, 0.72832013725238864)  TEST:  (0.73122659010169722, 0.72107744050909617)
+results for output type  ss8  TRAIN:  (0.61771384501396698, 0.6007649479184396)  VAL:  (0.62318191344676466, 0.6034717360652343)  TEST:  (0.61596016903118855, 0.59696837983027318)
+Val loss:  356654.5625
+	NEW BEST VAL LOSS
+Total time spent on epoch: 514.851 seconds
+epoch 3 started
+ complete. time taken: 430.034 seconds
+getting raw outputs  complete. time taken: 472.646 seconds
+results for output type  ss  TRAIN:  (0.7324579904632097, 0.7237576377778534)  VAL:  (0.73669835519093319, 0.72696437551149196)  TEST:  (0.7289423549555607, 0.71817410716169627)
+results for output type  ss8  TRAIN:  (0.61552041090005494, 0.59807257803724001)  VAL:  (0.62193094304864394, 0.60107080527317369)  TEST:  (0.61282913882598433, 0.59318729454063612)
+Val loss:  354619.828125
+	NEW BEST VAL LOSS
+Total time spent on epoch: 514.745 seconds
+epoch 4 started
+ complete. time taken: 424.96 seconds
+getting raw outputs  complete. time taken: 468.096 seconds
+results for output type  ss  TRAIN:  (0.734612838221676, 0.72646702777683225)  VAL:  (0.7376869728077472, 0.72845324840513115)  TEST:  (0.73226629113907604, 0.72167667500812338)
+results for output type  ss8  TRAIN:  (0.61797808425498413, 0.60098780508561123)  VAL:  (0.62403449026097557, 0.60367386781569532)  TEST:  (0.6145907372549464, 0.59554625288539853)
+Val loss:  353406.9375
+	NEW BEST VAL LOSS
+Total time spent on epoch: 509.321 seconds
+epoch 5 started
+ complete. time taken: 430.549 seconds
+getting raw outputs  complete. time taken: 475.247 seconds
+results for output type  ss  TRAIN:  (0.73481309681063289, 0.72662925077441531)  VAL:  (0.7372392844645459, 0.72859128960056796)  TEST:  (0.73168719621857814, 0.72175263431081704)
+results for output type  ss8  TRAIN:  (0.61885133345616106, 0.60201113966708653)  VAL:  (0.6235042446503789, 0.60366400773030693)  TEST:  (0.6177544460167913, 0.59890534204895995)
+Val loss:  353917.296875
+Total time spent on epoch: 481.012 seconds
+epoch 6 started
+ complete. time taken: 427.555 seconds
+getting raw outputs  complete. time taken: 470.953 seconds
+results for output type  ss  TRAIN:  (0.73558999252770829, 0.72725739949620449)  VAL:  (0.7386186251538801, 0.72940474664510591)  TEST:  (0.73191227858884778, 0.72153741628651846)
+results for output type  ss8  TRAIN:  (0.61905568017227408, 0.60207762450216151)  VAL:  (0.6241656882206954, 0.60441337421982078)  TEST:  (0.61548565235594621, 0.59663922285193427)
+Val loss:  353795.59375
+Total time spent on epoch: 477.18 seconds
+epoch 7 started
+ complete. time taken: 429.346 seconds
+getting raw outputs  complete. time taken: 474.579 seconds
+results for output type  ss  TRAIN:  (0.73559252115097951, 0.72707549698743912)  VAL:  (0.73833428401677592, 0.72885258186335888)  TEST:  (0.73160124660363812, 0.72104790078027081)
+results for output type  ss8  TRAIN:  (0.61978243116254872, 0.60260790754672022)  VAL:  (0.6249059639444734, 0.60480284759266012)  TEST:  (0.61530210166859467, 0.59636070540872432)
+Val loss:  353423.84375
+Total time spent on epoch: 480.543 seconds
+epoch 8 started
+ complete. time taken: 430.462 seconds
+getting raw outputs  complete. time taken: 472.23 seconds
+results for output type  ss  TRAIN:  (0.73606720129888836, 0.72759035555026041)  VAL:  (0.73758637492489776, 0.72836450763663618)  TEST:  (0.73153353939936094, 0.72120403934691879)
+results for output type  ss8  TRAIN:  (0.62004659161893461, 0.60295841559723595)  VAL:  (0.62496023276140955, 0.60500497934312114)  TEST:  (0.61598615973515758, 0.59721735754465777)
+Val loss:  352561.1875
+	NEW BEST VAL LOSS
+Total time spent on epoch: 512.85 seconds
+epoch 9 started
+ complete. time taken: 431.898 seconds
+getting raw outputs  complete. time taken: 475.078 seconds
+results for output type  ss  TRAIN:  (0.73801400246808957, 0.72963702471321101)  VAL:  (0.73959042557728227, 0.73016397322000803)  TEST:  (0.73252735331369423, 0.72224214981706469)
+results for output type  ss8  TRAIN:  (0.62324824745576468, 0.60624489396466619)  VAL:  (0.62658893033454977, 0.6066614736883621)  TEST:  (0.61788806557668075, 0.59869434398592225)
+Val loss:  350846.375
+	NEW BEST VAL LOSS
+Total time spent on epoch: 514.845 seconds
+epoch 10 started
+ complete. time taken: 427.325 seconds
+getting raw outputs  complete. time taken: 471.03 seconds
+results for output type  ss  TRAIN:  (0.73865518142914277, 0.73011305613234845)  VAL:  (0.73920455791694095, 0.72996677151224132)  TEST:  (0.73231358381780254, 0.72169777481442721)
+results for output type  ss8  TRAIN:  (0.62397773803164802, 0.60704058447084452)  VAL:  (0.62677398474131607, 0.60719391829933245)  TEST:  (0.61828147543617984, 0.5994075174389899)
+Val loss:  352056.640625
+Total time spent on epoch: 476.807 seconds
+epoch 11 started
+ complete. time taken: 431.173 seconds
+getting raw outputs  complete. time taken: 473.406 seconds
+results for output type  ss  TRAIN:  (0.73987418614726064, 0.73110766926507131)  VAL:  (0.73882327635929568, 0.7294096766878001)  TEST:  (0.73228978395431354, 0.72196785233511551)
+results for output type  ss8  TRAIN:  (0.62323205047306884, 0.60593427681519552)  VAL:  (0.62458773090399911, 0.60486200810499013)  TEST:  (0.61591452186440909, 0.59733551645995886)
+Val loss:  351735.75
+Total time spent on epoch: 479.531 seconds
+epoch 12 started
+ complete. time taken: 426.547 seconds
+getting raw outputs  complete. time taken: 470.444 seconds
+results for output type  ss  TRAIN:  (0.74079930248812365, 0.73226610103141909)  VAL:  (0.73845596457939089, 0.72943925694396516)  TEST:  (0.73279235218573269, 0.72212821086302426)
+results for output type  ss8  TRAIN:  (0.62550702373220579, 0.60842453279776698)  VAL:  (0.6261278514526748, 0.6063015805716877)  TEST:  (0.61795174791148322, 0.59881250290122334)
+Val loss:  352604.78125
+Total time spent on epoch: 476.498 seconds
+epoch 13 started
+ complete. time taken: 421.493 seconds
+getting raw outputs  complete. time taken: 465.081 seconds
+results for output type  ss  TRAIN:  (0.74209725371815838, 0.73346814684957617)  VAL:  (0.73815215489403097, 0.72874412092408725)  TEST:  (0.73230314023178833, 0.72173997442703475)
+results for output type  ss8  TRAIN:  (0.62572515145908314, 0.60830007318650647)  VAL:  (0.62367627370317935, 0.6033336948697976)  TEST:  (0.61748426545750357, 0.59828922770488968)
+Val loss:  354029.765625
+Total time spent on epoch: 470.91 seconds
+epoch 14 started
+ complete. time taken: 423.996 seconds
+getting raw outputs  complete. time taken: 465.935 seconds
+results for output type  ss  TRAIN:  (0.74396309595383525, 0.7355063059536372)  VAL:  (0.73551837438016165, 0.72602273735690548)  TEST:  (0.73159598027781214, 0.7212377990370048)
+results for output type  ss8  TRAIN:  (0.62908639478026462, 0.61192535827347927)  VAL:  (0.62346475535914303, 0.60398446050542798)  TEST:  (0.6174136983555113, 0.59863526452827165)
+Val loss:  354954.984375
+Total time spent on epoch: 471.86 seconds
+epoch 15 started
+ complete. time taken: 419.962 seconds
+getting raw outputs  complete. time taken: 460.797 seconds
+results for output type  ss  TRAIN:  (0.74425996897847779, 0.735740864451782)  VAL:  (0.73399386293370372, 0.72437117305435861)  TEST:  (0.72744598743048372, 0.71746515366988928)
+results for output type  ss8  TRAIN:  (0.62959563922817041, 0.6125519113592266)  VAL:  (0.6220202531350334, 0.60272236957572056)  TEST:  (0.61400497763424877, 0.59536901451244673)
+Val loss:  356819.046875
+Total time spent on epoch: 466.418 seconds
+epoch 16 started
+ complete. time taken: 415.457 seconds
+getting raw outputs  complete. time taken: 455.996 seconds
+results for output type  ss  TRAIN:  (0.75165712718566724, 0.74249997872485274)  VAL:  (0.73480439154243526, 0.72601780731421139)  TEST:  (0.7291833027860235, 0.71966797344800371)
+results for output type  ss8  TRAIN:  (0.63686808586863886, 0.61918816165707868)  VAL:  (0.62368591258503203, 0.60451197507370413)  TEST:  (0.61578012039544561, 0.59729753680861208)
+Val loss:  356918.078125
+Total time spent on epoch: 461.861 seconds
+epoch 17 started
+ complete. time taken: 402.161 seconds
+getting raw outputs  complete. time taken: 443.37 seconds
+results for output type  ss  TRAIN:  (0.75401101289758399, 0.74507480341763965)  VAL:  (0.7362814760398888, 0.72616077855234229)  TEST:  (0.72998870482003675, 0.71890838042106775)
+results for output type  ss8  TRAIN:  (0.63873323018145622, 0.62133003710385681)  VAL:  (0.62313137502321014, 0.6026878592768613)  TEST:  (0.61590442391117572, 0.59670674223210629)
+Val loss:  361487.40625
+Total time spent on epoch: 448.812 seconds
+epoch 18 started
+ complete. time taken: 424.144 seconds
+getting raw outputs  complete. time taken: 467.267 seconds
+results for output type  ss  TRAIN:  (0.75747107558602944, 0.74852775981209785)  VAL:  (0.73491049028638755, 0.72444512369477121)  TEST:  (0.73073282178815591, 0.72014060910920841)
+results for output type  ss8  TRAIN:  (0.64252684952441264, 0.62490692123089486)  VAL:  (0.62242333873434641, 0.602125834409726)  TEST:  (0.61669264387291789, 0.59761403390316881)
+Val loss:  360972.671875
+Total time spent on epoch: 473.225 seconds
+epoch 19 started
+ complete. time taken: 415.262 seconds
+getting raw outputs  complete. time taken: 456.285 seconds
+results for output type  ss  TRAIN:  (0.7620885378113994, 0.75289182438642477)  VAL:  (0.73178177560185453, 0.72172867017028364)  TEST:  (0.72665024276235979, 0.7166718009528672)
+results for output type  ss8  TRAIN:  (0.64657807799115463, 0.62879016747795891)  VAL:  (0.6200154276312464, 0.59940938088523843)  TEST:  (0.61320503687818018, 0.59452924222155645)
+Val loss:  362778.375
+Total time spent on epoch: 462.2 seconds
+it has been 10 epochs since a new best validation error has been found. stopping training
+./sequence_only/it1_onehot-ss_ss8/170615-12:24:50/network_best_train_fold_7
+Saving the best outputs of the test set to files
+Results for the best network 9
+results for output type  ss  TRAIN:  (0.73801400246808957, 0.72963702471321101)  VAL:  (0.73959042557728227, 0.73016397322000803)  TEST:  (0.73252735331369423, 0.72224214981706469)  IND - /home/rhys/work/Databases/ourdatabase/combined_cd40.mat : (0.73542809863887282, 0.72618024245188684)  IND - /home/rhys/work/Databases/ourdatabase/combined_e01.mat : (0.74270808081326534, 0.73240370716775782) 
+results for output type  ss8  TRAIN:  (0.62324824745576468, 0.60624489396466619)  VAL:  (0.62658893033454977, 0.6066614736883621)  TEST:  (0.61788806557668075, 0.59869434398592225)  IND - /home/rhys/work/Databases/ourdatabase/combined_cd40.mat : (0.61928540102853935, 0.59982573405144934)  IND - /home/rhys/work/Databases/ourdatabase/combined_e01.mat : (0.6386175337283837, 0.61671626562367143) 
+doing fold number  8
+ss
+loading mat files finished loading mat files
+TIME: 6.33656
+8093 900 1000
+epoch 0 started
+ complete. time taken: 414.589 seconds
+getting raw outputs  complete. time taken: 456.95 seconds
+results for output type  ss  TRAIN:  (0.72988457512205107, 0.72211211318321944)  VAL:  (0.73125258261442883, 0.72187421944255337)  TEST:  (0.73698803047645656, 0.7268038413403396)
+results for output type  ss8  TRAIN:  (0.61492088657353738, 0.59852877998297527)  VAL:  (0.6175012020906262, 0.59824371513510077)  TEST:  (0.62152861199890386, 0.60161053123933372)
+Val loss:  366143.265625
+	NEW BEST VAL LOSS
+Total time spent on epoch: 502.106 seconds
+epoch 1 started
+ complete. time taken: 412.31 seconds
+getting raw outputs  complete. time taken: 452.527 seconds
+results for output type  ss  TRAIN:  (0.732304808159292, 0.72415849100397622)  VAL:  (0.73301182198464632, 0.7236324633535931)  TEST:  (0.73893522478300711, 0.72841352981084051)
+results for output type  ss8  TRAIN:  (0.61631423572953958, 0.59957166607841295)  VAL:  (0.61852262953588355, 0.59905671928338089)  TEST:  (0.62305189705071595, 0.60323707508648916)
+Val loss:  362483.703125
+	NEW BEST VAL LOSS
+Total time spent on epoch: 500.727 seconds
+epoch 2 started
+ complete. time taken: 425.321 seconds
+getting raw outputs  complete. time taken: 468.309 seconds
+results for output type  ss  TRAIN:  (0.73226384539970857, 0.72399718702903104)  VAL:  (0.73260250931559567, 0.7237744941987746)  TEST:  (0.73671442882543536, 0.72645830611892315)
+results for output type  ss8  TRAIN:  (0.61594407890780534, 0.5990622010486355)  VAL:  (0.61792208599312437, 0.59776864644604544)  TEST:  (0.62110279506792676, 0.60136191443368037)
+Val loss:  359848.296875
+	NEW BEST VAL LOSS
+Total time spent on epoch: 515.117 seconds
+epoch 3 started
+ complete. time taken: 416.614 seconds
+getting raw outputs  complete. time taken: 456.563 seconds
+results for output type  ss  TRAIN:  (0.73210577114522646, 0.72422077669727181)  VAL:  (0.73389463964973178, 0.72438669611766027)  TEST:  (0.73937828508751657, 0.7287000712139664)
+results for output type  ss8  TRAIN:  (0.61732955157770442, 0.60085996845256251)  VAL:  (0.61967465806615996, 0.59998236858473608)  TEST:  (0.62502428489380846, 0.60516701571342491)
+Val loss:  359366.5625
+	NEW BEST VAL LOSS
+Total time spent on epoch: 500.486 seconds
+epoch 4 started
+ complete. time taken: 416.271 seconds
+getting raw outputs  complete. time taken: 456.938 seconds
+results for output type  ss  TRAIN:  (0.73313305528242834, 0.72507361157470474)  VAL:  (0.73432031918147789, 0.72511154318962101)  TEST:  (0.73865591739201064, 0.7281944099143326)
+results for output type  ss8  TRAIN:  (0.61745322366918287, 0.60097602213750656)  VAL:  (0.61880050453910374, 0.59960035458735139)  TEST:  (0.62384277886926376, 0.60433267456902906)
+Val loss:  357609.375
+	NEW BEST VAL LOSS
+Total time spent on epoch: 503.025 seconds
+epoch 5 started
+ complete. time taken: 417.521 seconds
+getting raw outputs  complete. time taken: 460.541 seconds
+results for output type  ss  TRAIN:  (0.73325917694634368, 0.724918695875995)  VAL:  (0.73521033577829686, 0.72539070726463284)  TEST:  (0.73807483649545902, 0.72744013180904543)
+results for output type  ss8  TRAIN:  (0.61717697336187427, 0.60038670365478608)  VAL:  (0.62034174276107079, 0.60010480896851326)  TEST:  (0.62316786960478943, 0.60334242119057957)
+Val loss:  358860.875
+Total time spent on epoch: 466.785 seconds
+epoch 6 started
+ complete. time taken: 408.813 seconds
+getting raw outputs  complete. time taken: 448.508 seconds
+results for output type  ss  TRAIN:  (0.73497500486686196, 0.72680004322733582)  VAL:  (0.73504869280752905, 0.7255474309558676)  TEST:  (0.74036383228992708, 0.7296945384365795)
+results for output type  ss8  TRAIN:  (0.61974569047189454, 0.60309373570955915)  VAL:  (0.62085546421127247, 0.60106474157732603)  TEST:  (0.62583811748213114, 0.60560525550644084)
+Val loss:  359070.75
+Total time spent on epoch: 454.641 seconds
+epoch 7 started
+ complete. time taken: 421.13 seconds
+getting raw outputs  complete. time taken: 462.68 seconds
+results for output type  ss  TRAIN:  (0.73576823465608632, 0.72738350579017386)  VAL:  (0.73681570775968142, 0.72721751779058774)  TEST:  (0.73854376765947216, 0.72817755453767807)
+results for output type  ss8  TRAIN:  (0.62074379738463503, 0.60384701994898959)  VAL:  (0.62251038595888275, 0.60239199533747023)  TEST:  (0.6238676628552976, 0.60464028519297297)
+Val loss:  356942.25
+	NEW BEST VAL LOSS
+Total time spent on epoch: 510.305 seconds
+epoch 8 started
+ complete. time taken: 417.156 seconds
+getting raw outputs  complete. time taken: 460.197 seconds
+results for output type  ss  TRAIN:  (0.73413221859343203, 0.72587214610413631)  VAL:  (0.73346963937787168, 0.72420548434967014)  TEST:  (0.73751159888347395, 0.72688811822361188)
+results for output type  ss8  TRAIN:  (0.61887609827212053, 0.60201997294565013)  VAL:  (0.61915559355059457, 0.59915467159040259)  TEST:  (0.62315136734900511, 0.60311065976158074)
+Val loss:  358869.328125
+Total time spent on epoch: 466.126 seconds
+epoch 9 started
+ complete. time taken: 419.435 seconds
+getting raw outputs  complete. time taken: 461.324 seconds
+results for output type  ss  TRAIN:  (0.73718213674944499, 0.72882406208126849)  VAL:  (0.7356597284983607, 0.72586577595368817)  TEST:  (0.73793911242961674, 0.72814805762853274)
+results for output type  ss8  TRAIN:  (0.62199101923959266, 0.6052540377898481)  VAL:  (0.62253243903277133, 0.60184346241814857)  TEST:  (0.62330242087497167, 0.60407984391921221)
+Val loss:  356466.703125
+	NEW BEST VAL LOSS
+Total time spent on epoch: 507.082 seconds
+epoch 10 started
+ complete. time taken: 416.478 seconds
+getting raw outputs  complete. time taken: 460.751 seconds
+results for output type  ss  TRAIN:  (0.73693755823635432, 0.72874048213385456)  VAL:  (0.73375836365796832, 0.72465116734661894)  TEST:  (0.74016586585220878, 0.72990101680059671)
+results for output type  ss8  TRAIN:  (0.62318183521191906, 0.60643267475528906)  VAL:  (0.62181384632908521, 0.60203936703219207)  TEST:  (0.62548493573773223, 0.60599714301365704)
+Val loss:  357201.265625
+Total time spent on epoch: 466.996 seconds
+epoch 11 started
+ complete. time taken: 425.049 seconds
+getting raw outputs  complete. time taken: 465.157 seconds
+results for output type  ss  TRAIN:  (0.73904532039937132, 0.73052866712342845)  VAL:  (0.73585003076803812, 0.72608127102913589)  TEST:  (0.74050682496806752, 0.72995579677472366)
+results for output type  ss8  TRAIN:  (0.62469266588061345, 0.60795201978662095)  VAL:  (0.62291272388204866, 0.60264667133572658)  TEST:  (0.62597409267791793, 0.60578223696131273)
+Val loss:  357182.8125
+Total time spent on epoch: 470.878 seconds
+epoch 12 started
+ complete. time taken: 413.521 seconds
+getting raw outputs  complete. time taken: 455.33 seconds
+results for output type  ss  TRAIN:  (0.74067369750308309, 0.73188724053616805)  VAL:  (0.73609546465622555, 0.72631635656598803)  TEST:  (0.73896365005561193, 0.72844302671998584)
+results for output type  ss8  TRAIN:  (0.62714319769696669, 0.61010433652161555)  VAL:  (0.62349224749642018, 0.60361150155989052)  TEST:  (0.62510848565390531, 0.6053608525449512)
+Val loss:  357772.421875
+Total time spent on epoch: 461.786 seconds
+epoch 13 started
+ complete. time taken: 416.504 seconds
+getting raw outputs  complete. time taken: 457.217 seconds
+results for output type  ss  TRAIN:  (0.74205821833709462, 0.73361313983244614)  VAL:  (0.73433480143809793, 0.72522908595804703)  TEST:  (0.73985308933618066, 0.72945434931925346)
+results for output type  ss8  TRAIN:  (0.62797596113693877, 0.6109188417416358)  VAL:  (0.62290292214326837, 0.60268095464318427)  TEST:  (0.62526838708557486, 0.6058580861562578)
+Val loss:  357850.484375
+Total time spent on epoch: 462.922 seconds
+epoch 14 started
+ complete. time taken: 416.23 seconds
+getting raw outputs  complete. time taken: 457.771 seconds
+results for output type  ss  TRAIN:  (0.74568203763417396, 0.73647561994228194)  VAL:  (0.73500416299370042, 0.72547886434095243)  TEST:  (0.73778955697068593, 0.72787837160206137)
+results for output type  ss8  TRAIN:  (0.63025305926858599, 0.61257074350485319)  VAL:  (0.62070896466453629, 0.60086393934793147)  TEST:  (0.62255363523618423, 0.60305587978745367)
+Val loss:  359112.140625
+Total time spent on epoch: 463.574 seconds
+epoch 15 started
+ complete. time taken: 410.5 seconds
+getting raw outputs  complete. time taken: 450.607 seconds
+results for output type  ss  TRAIN:  (0.74844076960872652, 0.73917945785893724)  VAL:  (0.7331696745715558, 0.72334840166323022)  TEST:  (0.73418263124486671, 0.72436823941377004)
+results for output type  ss8  TRAIN:  (0.63200215130971393, 0.61448137045560658)  VAL:  (0.61924738423207903, 0.59927711197417977)  TEST:  (0.620172840032015, 0.60086468082237388)
+Val loss:  361157.90625
+Total time spent on epoch: 456.405 seconds
+epoch 16 started
+ complete. time taken: 416.252 seconds
+getting raw outputs  complete. time taken: 461.043 seconds
+results for output type  ss  TRAIN:  (0.75180849035562469, 0.74284047249820462)  VAL:  (0.73087642096951388, 0.72200645505703276)  TEST:  (0.73513914093601918, 0.72460842853109608)
+results for output type  ss8  TRAIN:  (0.63568325069957998, 0.61836224826864405)  VAL:  (0.61759472923074454, 0.59835636028817574)  TEST:  (0.62097458977599762, 0.60175380194089667)
+Val loss:  362547.21875
+Total time spent on epoch: 466.991 seconds
+epoch 17 started
+ complete. time taken: 422.585 seconds
+getting raw outputs  complete. time taken: 467.799 seconds
+results for output type  ss  TRAIN:  (0.75885142320786436, 0.74933681707330702)  VAL:  (0.73108726745764518, 0.72212889544080983)  TEST:  (0.73039470878510881, 0.7208496795371514)
+results for output type  ss8  TRAIN:  (0.64344608612451781, 0.62542448764693703)  VAL:  (0.61887357390835207, 0.5991105930522429)  TEST:  (0.61566147800165005, 0.59675618276284903)
+Val loss:  366504.140625
+Total time spent on epoch: 473.596 seconds
+epoch 18 started
+ complete. time taken: 416.267 seconds
+getting raw outputs  complete. time taken: 456.69 seconds
+results for output type  ss  TRAIN:  (0.76015550215148986, 0.75057561030663189)  VAL:  (0.72697303060231755, 0.71844588869679349)  TEST:  (0.73173050105487603, 0.72193263748720049)
+results for output type  ss8  TRAIN:  (0.64643941610889188, 0.62824650867394827)  VAL:  (0.61721435339387032, 0.59768538698507701)  TEST:  (0.61852122350045291, 0.60011040271708671)
+Val loss:  364084.984375
+Total time spent on epoch: 462.617 seconds
+epoch 19 started
+ complete. time taken: 413.68 seconds
+getting raw outputs  complete. time taken: 453.36 seconds
+results for output type  ss  TRAIN:  (0.76429085439029842, 0.75462684215261489)  VAL:  (0.72863107115862669, 0.72036085629906799)  TEST:  (0.73110676355734427, 0.72093817026458729)
+results for output type  ss8  TRAIN:  (0.64811387951563637, 0.63016565332634877)  VAL:  (0.61622525075983325, 0.59742581337146938)  TEST:  (0.61690197464591412, 0.59770851154382609)
+Val loss:  370425.0
+Total time spent on epoch: 459.106 seconds
+it has been 10 epochs since a new best validation error has been found. stopping training
+./sequence_only/it1_onehot-ss_ss8/170615-12:24:50/network_best_train_fold_8
+Saving the best outputs of the test set to files
+Results for the best network 9
+results for output type  ss  TRAIN:  (0.73718213674944499, 0.72882406208126849)  VAL:  (0.7356597284983607, 0.72586577595368817)  TEST:  (0.73793911242961674, 0.72814805762853274)  IND - /home/rhys/work/Databases/ourdatabase/combined_cd40.mat : (0.73490210350168794, 0.7250633029829886)  IND - /home/rhys/work/Databases/ourdatabase/combined_e01.mat : (0.74302567205486802, 0.73145140719326585) 
+results for output type  ss8  TRAIN:  (0.62199101923959266, 0.6052540377898481)  VAL:  (0.62253243903277133, 0.60184346241814857)  TEST:  (0.62330242087497167, 0.60407984391921221)  IND - /home/rhys/work/Databases/ourdatabase/combined_cd40.mat : (0.61879373380595526, 0.59959766787717172)  IND - /home/rhys/work/Databases/ourdatabase/combined_e01.mat : (0.63705384682193367, 0.61533883173199555) 
+doing fold number  9
+ss
+loading mat files finished loading mat files
+TIME: 6.1556
+8094 900 999
+epoch 0 started
+ complete. time taken: 432.513 seconds
+getting raw outputs  complete. time taken: 476.727 seconds
+results for output type  ss  TRAIN:  (0.72638278271529988, 0.71765181902836672)  VAL:  (0.72820079472798549, 0.71945516279574029)  TEST:  (0.72385292978038562, 0.7129367001037703)
+results for output type  ss8  TRAIN:  (0.60958423057214839, 0.59222042156573684)  VAL:  (0.61155035467495156, 0.59358475875085626)  TEST:  (0.60742359499190079, 0.58851608439986169)
+Val loss:  368015.09375
+	NEW BEST VAL LOSS
+Total time spent on epoch: 529.409 seconds
+epoch 1 started
+ complete. time taken: 442.506 seconds
+getting raw outputs  complete. time taken: 485.043 seconds
+results for output type  ss  TRAIN:  (0.73024740466332205, 0.72220018539219788)  VAL:  (0.73042535469274827, 0.72167275271901166)  TEST:  (0.72895394116424495, 0.71854029747492221)
+results for output type  ss8  TRAIN:  (0.61560590287041184, 0.59852142298057198)  VAL:  (0.61937974116360817, 0.60109006864672809)  TEST:  (0.61465502969222974, 0.59589674852992047)
+Val loss:  362057.453125
+	NEW BEST VAL LOSS
+Total time spent on epoch: 535.942 seconds
+epoch 2 started
+ complete. time taken: 445.257 seconds
+getting raw outputs  complete. time taken: 487.939 seconds
+results for output type  ss  TRAIN:  (0.73172283115504078, 0.7232549482110926)  VAL:  (0.73280456917964965, 0.72444227613429724)  TEST:  (0.73025398248846429, 0.7209443099273608)
+results for output type  ss8  TRAIN:  (0.6158266967704793, 0.59864816421421496)  VAL:  (0.61946645986536775, 0.60134139550469878)  TEST:  (0.61405149711147855, 0.59589674852992047)
+Val loss:  360658.28125
+	NEW BEST VAL LOSS
+Total time spent on epoch: 541.244 seconds
+epoch 3 started
+ complete. time taken: 435.018 seconds
+getting raw outputs  complete. time taken: 476.151 seconds
+results for output type  ss  TRAIN:  (0.73352080563184541, 0.72518152102207523)  VAL:  (0.73440481932608948, 0.72578268604347462)  TEST:  (0.73294067112185612, 0.72298945001729509)
+results for output type  ss8  TRAIN:  (0.61642136648354373, 0.59918429554146613)  VAL:  (0.61880533932948789, 0.60110978055715714)  TEST:  (0.6150323611715145, 0.59651072293324114)
+Val loss:  364970.875
+Total time spent on epoch: 481.872 seconds
+epoch 4 started
+ complete. time taken: 432.716 seconds
+getting raw outputs  complete. time taken: 474.255 seconds
+results for output type  ss  TRAIN:  (0.73437857562453945, 0.72604961892782216)  VAL:  (0.73612197617972308, 0.72744834247473178)  TEST:  (0.73298128817875319, 0.72259598754756138)
+results for output type  ss8  TRAIN:  (0.61761901086477966, 0.6003700419783935)  VAL:  (0.62090660114429308, 0.60279022092123613)  TEST:  (0.61537044897585347, 0.59673123486682811)
+Val loss:  357122.296875
+	NEW BEST VAL LOSS
+Total time spent on epoch: 527.28 seconds
+epoch 5 started
+ complete. time taken: 444.107 seconds
+getting raw outputs  complete. time taken: 488.078 seconds
+results for output type  ss  TRAIN:  (0.7343995073177878, 0.72604007356294531)  VAL:  (0.734425948009234, 0.72558556693918386)  TEST:  (0.73371665386713192, 0.7233483223797994)
+results for output type  ss8  TRAIN:  (0.61713175097566753, 0.60011602921305895)  VAL:  (0.61986036825884461, 0.60199188854885843)  TEST:  (0.61673825105381486, 0.59783379453476304)
+Val loss:  358908.0
+Total time spent on epoch: 494.045 seconds
+epoch 6 started
+ complete. time taken: 440.665 seconds
+getting raw outputs  complete. time taken: 482.432 seconds
+results for output type  ss  TRAIN:  (0.73322521770629079, 0.72491902348796122)  VAL:  (0.7319230620363425, 0.72363408780670502)  TEST:  (0.73140841900446341, 0.72146316153580081)
+results for output type  ss8  TRAIN:  (0.61736703525039638, 0.60049466201984159)  VAL:  (0.61927685243418085, 0.60152865865377503)  TEST:  (0.61627338932983888, 0.59780785195434105)
+Val loss:  360004.125
+Total time spent on epoch: 488.275 seconds
+epoch 7 started
+ complete. time taken: 433.079 seconds
+getting raw outputs  complete. time taken: 475.65 seconds
+results for output type  ss  TRAIN:  (0.73152280594098695, 0.72325070582670281)  VAL:  (0.73284081732359685, 0.72316592993401441)  TEST:  (0.72824749110567666, 0.7174939467312349)
+results for output type  ss8  TRAIN:  (0.61638812599967174, 0.59932164273608335)  VAL:  (0.61806634167047192, 0.60032623211760128)  TEST:  (0.61458193241078651, 0.59581892078865439)
+Val loss:  360134.328125
+Total time spent on epoch: 481.865 seconds
+epoch 8 started
+ complete. time taken: 435.357 seconds
+getting raw outputs  complete. time taken: 477.268 seconds
+results for output type  ss  TRAIN:  (0.73563530379045916, 0.72741566670131286)  VAL:  (0.73624101515959095, 0.72691612089314661)  TEST:  (0.73395789890888896, 0.72363801452784504)
+results for output type  ss8  TRAIN:  (0.61796011161735898, 0.60066382709738186)  VAL:  (0.6198780778357188, 0.60170113787002955)  TEST:  (0.61552301213308402, 0.59699930819785541)
+Val loss:  361082.359375
+Total time spent on epoch: 483.225 seconds
+epoch 9 started
+ complete. time taken: 441.842 seconds
+getting raw outputs  complete. time taken: 483.65 seconds
+results for output type  ss  TRAIN:  (0.73411678132176295, 0.72616628449853959)  VAL:  (0.73415048076862777, 0.72527510434992581)  TEST:  (0.7320808836959436, 0.72175285368384645)
+results for output type  ss8  TRAIN:  (0.62004571213943016, 0.60299925970392398)  VAL:  (0.62230750216346531, 0.60421933442734432)  TEST:  (0.61788443055804565, 0.59938602559667931)
+Val loss:  356741.765625
+	NEW BEST VAL LOSS
+Total time spent on epoch: 534.965 seconds
+epoch 10 started
+ complete. time taken: 441.279 seconds
+getting raw outputs  complete. time taken: 482.728 seconds
+results for output type  ss  TRAIN:  (0.73562566554324527, 0.72724597132572388)  VAL:  (0.73424615836756013, 0.72550179131986026)  TEST:  (0.73224082506874577, 0.7215971982013144)
+results for output type  ss8  TRAIN:  (0.62117378028257153, 0.60395538708575769)  VAL:  (0.62221807214534697, 0.60441152555402788)  TEST:  (0.61773738451965465, 0.59882826011760637)
+Val loss:  361595.9375
+Total time spent on epoch: 488.568 seconds
+epoch 11 started
+ complete. time taken: 443.029 seconds
+getting raw outputs  complete. time taken: 486.152 seconds
+results for output type  ss  TRAIN:  (0.737387520769894, 0.72884004726016205)  VAL:  (0.73729782688561674, 0.72801013192196051)  TEST:  (0.73436737259257612, 0.72365530958145974)
+results for output type  ss8  TRAIN:  (0.62226962177044054, 0.60523870836364868)  VAL:  (0.62367899132419491, 0.60546611276198359)  TEST:  (0.61861945409436914, 0.59990920096852296)
+Val loss:  354582.859375
+	NEW BEST VAL LOSS
+Total time spent on epoch: 540.165 seconds
+epoch 12 started
+ complete. time taken: 437.322 seconds
+getting raw outputs  complete. time taken: 479.223 seconds
+results for output type  ss  TRAIN:  (0.73831224661610739, 0.72965458506298875)  VAL:  (0.73624128099167063, 0.72765531753423718)  TEST:  (0.73381969210141473, 0.72331805603597377)
+results for output type  ss8  TRAIN:  (0.6224672183522848, 0.60527742012120489)  VAL:  (0.6221620942014362, 0.60444109341967145)  TEST:  (0.61832102389067833, 0.59946385333794538)
+Val loss:  356000.96875
+Total time spent on epoch: 485.352 seconds
+epoch 13 started
+ complete. time taken: 436.578 seconds
+getting raw outputs  complete. time taken: 479.317 seconds
+results for output type  ss  TRAIN:  (0.73782341494620196, 0.72932208818644428)  VAL:  (0.73586607226206546, 0.72688162504989573)  TEST:  (0.73203858443476766, 0.72168367346938778)
+results for output type  ss8  TRAIN:  (0.62392541123210121, 0.60667422518152103)  VAL:  (0.62333004179006646, 0.60529363354572918)  TEST:  (0.61795771564979063, 0.59942493946731235)
+Val loss:  356603.109375
+Total time spent on epoch: 485.16 seconds
+epoch 14 started
+ complete. time taken: 430.503 seconds
+getting raw outputs  complete. time taken: 474.957 seconds
+results for output type  ss  TRAIN:  (0.73961156953239515, 0.73095646677258486)  VAL:  (0.73442058932066812, 0.72618185222966347)  TEST:  (0.73314298529905164, 0.72297647872708404)
+results for output type  ss8  TRAIN:  (0.62382642989806891, 0.60645043940496313)  VAL:  (0.62164239877592942, 0.60381524026354827)  TEST:  (0.61766390243572489, 0.59899256312694571)
+Val loss:  359214.203125
+Total time spent on epoch: 481.2 seconds
+epoch 15 started
+ complete. time taken: 441.991 seconds
+getting raw outputs  complete. time taken: 485.18 seconds
+results for output type  ss  TRAIN:  (0.74136008279292864, 0.73231562067144218)  VAL:  (0.73549738311993995, 0.7265317386397796)  TEST:  (0.73227678141271668, 0.72198201314424071)
+results for output type  ss8  TRAIN:  (0.62608773542355745, 0.60838549698472533)  VAL:  (0.62182901311534011, 0.60380538430833375)  TEST:  (0.61647848688331686, 0.59810619162919409)
+Val loss:  356692.734375
+Total time spent on epoch: 491.189 seconds
+epoch 16 started
+ complete. time taken: 436.02 seconds
+getting raw outputs  complete. time taken: 479.698 seconds
+results for output type  ss  TRAIN:  (0.74364970692763899, 0.73417166384194577)  VAL:  (0.73339837507744965, 0.72534409603642758)  TEST:  (0.73113625004374372, 0.72118644067796611)
+results for output type  ss8  TRAIN:  (0.62616846231740886, 0.60805087891598597)  VAL:  (0.61895161674795141, 0.60148923483291694)  TEST:  (0.61426688507903404, 0.59565029401591141)
+Val loss:  359946.75
+Total time spent on epoch: 485.643 seconds
+epoch 17 started
+ complete. time taken: 434.606 seconds
+getting raw outputs  complete. time taken: 475.469 seconds
+results for output type  ss  TRAIN:  (0.74348538707830869, 0.73480908209650153)  VAL:  (0.73209847455218635, 0.72421558916436279)  TEST:  (0.73071141920661797, 0.72004929090280179)
+results for output type  ss8  TRAIN:  (0.62709891841163823, 0.60908549040902948)  VAL:  (0.61726127650746543, 0.60000098559552151)  TEST:  (0.61560108266910607, 0.59608267035627815)
+Val loss:  360938.78125
+Total time spent on epoch: 481.422 seconds
+epoch 18 started
+ complete. time taken: 434.276 seconds
+getting raw outputs  complete. time taken: 475.897 seconds
+results for output type  ss  TRAIN:  (0.74769198870353926, 0.7382957917668046)  VAL:  (0.73160499599137918, 0.72379178309013759)  TEST:  (0.73107367791924327, 0.7202654790729851)
+results for output type  ss8  TRAIN:  (0.63351475300142956, 0.61532497725021373)  VAL:  (0.62079739550385693, 0.6032386668834977)  TEST:  (0.61666141359560322, 0.59743168453822204)
+Val loss:  360438.5
+Total time spent on epoch: 481.647 seconds
+epoch 19 started
+ complete. time taken: 437.971 seconds
+getting raw outputs  complete. time taken: 479.08 seconds
+results for output type  ss  TRAIN:  (0.75053916364429862, 0.74115038616303908)  VAL:  (0.73256300763477, 0.72457533152969356)  TEST:  (0.73064158049348038, 0.71979851262538919)
+results for output type  ss8  TRAIN:  (0.63356377879163484, 0.61559383836091242)  VAL:  (0.61799087691252885, 0.60030159222956492)  TEST:  (0.61452903819253779, 0.5955335524040124)
+Val loss:  358572.390625
+Total time spent on epoch: 484.921 seconds
+epoch 20 started
+ complete. time taken: 437.175 seconds
+getting raw outputs  complete. time taken: 480.266 seconds
+results for output type  ss  TRAIN:  (0.75597045432983501, 0.74658275937407859)  VAL:  (0.72930284855727701, 0.72110603529417561)  TEST:  (0.72656389667767207, 0.71687564856451058)
+results for output type  ss8  TRAIN:  (0.63835730058642426, 0.62057810972078742)  VAL:  (0.61531872930079012, 0.59799037073175543)  TEST:  (0.60997284095116455, 0.59219560705638186)
+Val loss:  361553.734375
+Total time spent on epoch: 486.467 seconds
+epoch 21 started
+ complete. time taken: 437.738 seconds
+getting raw outputs  complete. time taken: 478.452 seconds
+results for output type  ss  TRAIN:  (0.75725522966548098, 0.74795304953195896)  VAL:  (0.72742917296560439, 0.71986911291475086)  TEST:  (0.72483062922905361, 0.71476565202352127)
+results for output type  ss8  TRAIN:  (0.64112721123865202, 0.6231664944965668)  VAL:  (0.61493395820069841, 0.59760598847838831)  TEST:  (0.61058131281711858, 0.59149515738498792)
+Val loss:  363872.125
+Total time spent on epoch: 484.435 seconds
+it has been 10 epochs since a new best validation error has been found. stopping training
+./sequence_only/it1_onehot-ss_ss8/170615-12:24:50/network_best_train_fold_9
+Saving the best outputs of the test set to files
+Results for the best network 11
+results for output type  ss  TRAIN:  (0.737387520769894, 0.72884004726016205)  VAL:  (0.73729782688561674, 0.72801013192196051)  TEST:  (0.73436737259257612, 0.72365530958145974)  IND - /home/rhys/work/Databases/ourdatabase/combined_cd40.mat : (0.73531084734815688, 0.72559545738963649)  IND - /home/rhys/work/Databases/ourdatabase/combined_e01.mat : (0.74332612584319513, 0.73238670181107046) 
+results for output type  ss8  TRAIN:  (0.62226962177044054, 0.60523870836364868)  VAL:  (0.62367899132419491, 0.60546611276198359)  TEST:  (0.61861945409436914, 0.59990920096852296)  IND - /home/rhys/work/Databases/ourdatabase/combined_cd40.mat : (0.6195246541825975, 0.60046899761992478)  IND - /home/rhys/work/Databases/ourdatabase/combined_e01.mat : (0.63863863310335423, 0.61720942096760478) 
+doing fold number  10
+ss
+loading mat files finished loading mat files
+TIME: 6.19948
+8093 900 1000
+epoch 0 started
+ complete. time taken: 401.312 seconds
+getting raw outputs  complete. time taken: 445.134 seconds
+results for output type  ss  TRAIN:  (0.73159878641980114, 0.72291616597195829)  VAL:  (0.73144669470680734, 0.72151727077239003)  TEST:  (0.73093787752750317, 0.72475347233052756)
+results for output type  ss8  TRAIN:  (0.6147167126278742, 0.59718259308157251)  VAL:  (0.61690737061236633, 0.59633080842325503)  TEST:  (0.61521550327105778, 0.60149632157991595)
+Val loss:  371184.421875
+	NEW BEST VAL LOSS
+Total time spent on epoch: 501.056 seconds
+epoch 1 started
+ complete. time taken: 413.762 seconds
+getting raw outputs  complete. time taken: 457.221 seconds
+results for output type  ss  TRAIN:  (0.73127195612183316, 0.72272188760228728)  VAL:  (0.7330842256876513, 0.7222582769910304)  TEST:  (0.73099813747044451, 0.7250876716113307)
+results for output type  ss8  TRAIN:  (0.61568758808229906, 0.5981301633314664)  VAL:  (0.61828136786127008, 0.59766752552354752)  TEST:  (0.6158563620287667, 0.60214244018946872)
+Val loss:  371997.921875
+Total time spent on epoch: 463.151 seconds
+epoch 2 started
+ complete. time taken: 414.369 seconds
+getting raw outputs  complete. time taken: 458.468 seconds
+results for output type  ss  TRAIN:  (0.7322832772909561, 0.72373880517214551)  VAL:  (0.73270396588537623, 0.72254402448710742)  TEST:  (0.73043277961768827, 0.72440144908808157)
+results for output type  ss8  TRAIN:  (0.61647512255500614, 0.59898615276949907)  VAL:  (0.61874653499199894, 0.5979435866638253)  TEST:  (0.61582151844473687, 0.60179041694702273)
+Val loss:  368422.40625
+	NEW BEST VAL LOSS
+Total time spent on epoch: 514.648 seconds
+epoch 3 started
+ complete. time taken: 411.036 seconds
+getting raw outputs  complete. time taken: 454.872 seconds
+results for output type  ss  TRAIN:  (0.7338142928642537, 0.72520621563734422)  VAL:  (0.73391726973996196, 0.72368701447141559)  TEST:  (0.73144311831243092, 0.72502083175517007)
+results for output type  ss8  TRAIN:  (0.61683120659739776, 0.59930747966429543)  VAL:  (0.62027177843450554, 0.59895096766694433)  TEST:  (0.61516783239153827, 0.60044470784298876)
+Val loss:  368329.203125
+	NEW BEST VAL LOSS
+Total time spent on epoch: 513.785 seconds
+epoch 4 started
+ complete. time taken: 430.414 seconds
+getting raw outputs  complete. time taken: 475.084 seconds
+results for output type  ss  TRAIN:  (0.73392554222893847, 0.72519933384223323)  VAL:  (0.73309314076823817, 0.72314942172455876)  TEST:  (0.73074312640826489, 0.72452176082917075)
+results for output type  ss8  TRAIN:  (0.61567067559616939, 0.59797982257673465)  VAL:  (0.6164855943032207, 0.59573994071950254)  TEST:  (0.61431592707748051, 0.60067196335393491)
+Val loss:  367358.3125
+	NEW BEST VAL LOSS
+Total time spent on epoch: 532.866 seconds
+epoch 5 started
+ complete. time taken: 419.819 seconds
+getting raw outputs  complete. time taken: 464.008 seconds
+results for output type  ss  TRAIN:  (0.73535335208961294, 0.72668633095505553)  VAL:  (0.73429191704497576, 0.72420039132877434)  TEST:  (0.73325041315938588, 0.72674975603452496)
+results for output type  ss8  TRAIN:  (0.6184654443285017, 0.60126243884466302)  VAL:  (0.61991292025180045, 0.59971134659718317)  TEST:  (0.61647000837140442, 0.60293115049216417)
+Val loss:  363597.3125
+	NEW BEST VAL LOSS
+Total time spent on epoch: 522.059 seconds
+epoch 6 started
+ complete. time taken: 424.761 seconds
+getting raw outputs  complete. time taken: 468.616 seconds
+results for output type  ss  TRAIN:  (0.73368179733183958, 0.72498705693150289)  VAL:  (0.7313204902305378, 0.72154148666188811)  TEST:  (0.73170633717765332, 0.72519907137159845)
+results for output type  ss8  TRAIN:  (0.61870512035914893, 0.60123120608223635)  VAL:  (0.61867775708888206, 0.59805497975551636)  TEST:  (0.61766437049812251, 0.60384462852635945)
+Val loss:  364808.046875
+Total time spent on epoch: 474.582 seconds
+epoch 7 started
+ complete. time taken: 432.982 seconds
+getting raw outputs  complete. time taken: 478.605 seconds
+results for output type  ss  TRAIN:  (0.73655688720904, 0.72789964437000343)  VAL:  (0.73605799180786213, 0.72602626939692749)  TEST:  (0.73385061357807857, 0.7272131790372387)
+results for output type  ss8  TRAIN:  (0.61868074112476168, 0.60135613713194302)  VAL:  (0.61962535617965653, 0.5989412813111451)  TEST:  (0.61657736235081662, 0.60273954290450371)
+Val loss:  364637.140625
+Total time spent on epoch: 484.542 seconds
+epoch 8 started
+ complete. time taken: 424.032 seconds
+getting raw outputs  complete. time taken: 467.59 seconds
+results for output type  ss  TRAIN:  (0.7364429216985362, 0.72767942692645271)  VAL:  (0.73442261280591736, 0.7242827253530677)  TEST:  (0.73341672029135341, 0.72695027560300696)
+results for output type  ss8  TRAIN:  (0.61965990170344332, 0.60207978435630338)  VAL:  (0.61859415991073929, 0.59829229547259732)  TEST:  (0.61743079149635383, 0.60351934122637763)
+Val loss:  366219.5625
+Total time spent on epoch: 473.496 seconds
+epoch 9 started
+ complete. time taken: 439.135 seconds
+getting raw outputs  complete. time taken: 481.68 seconds
+results for output type  ss  TRAIN:  (0.73663007016678939, 0.72785041306651732)  VAL:  (0.73491056138489608, 0.72511575195180067)  TEST:  (0.73275524625191779, 0.72637099684961481)
+results for output type  ss8  TRAIN:  (0.62075740263932255, 0.603319036845131)  VAL:  (0.61978834245029546, 0.59954667854859645)  TEST:  (0.61814535154706274, 0.60429022756743023)
+Val loss:  364276.015625
+Total time spent on epoch: 487.714 seconds
+epoch 10 started
+ complete. time taken: 430.136 seconds
+getting raw outputs  complete. time taken: 473.517 seconds
+results for output type  ss  TRAIN:  (0.73752628482908389, 0.72875510443918134)  VAL:  (0.73463674495344478, 0.72428756853096732)  TEST:  (0.73342106106869309, 0.72711514724820314)
+results for output type  ss8  TRAIN:  (0.62208697759560927, 0.6044820602188834)  VAL:  (0.6216600611955303, 0.60093667060578471)  TEST:  (0.61960970439468754, 0.60576961638378557)
+Val loss:  364577.109375
+Total time spent on epoch: 479.503 seconds
+epoch 11 started
+ complete. time taken: 423.376 seconds
+getting raw outputs  complete. time taken: 467.271 seconds
+results for output type  ss  TRAIN:  (0.7386232704019271, 0.72972226133669871)  VAL:  (0.73559409461355529, 0.72527073364458827)  TEST:  (0.73260463223906402, 0.72615265331949008)
+results for output type  ss8  TRAIN:  (0.62262778338446523, 0.60506066037705886)  VAL:  (0.62074480688951827, 0.5996871307076852)  TEST:  (0.61844967884516766, 0.60401841215237706)
+Val loss:  363400.15625
+	NEW BEST VAL LOSS
+Total time spent on epoch: 528.256 seconds
+epoch 12 started
+ complete. time taken: 429.814 seconds
+getting raw outputs  complete. time taken: 473.095 seconds
+results for output type  ss  TRAIN:  (0.73909378851657592, 0.73028286295381473)  VAL:  (0.73488016171480819, 0.72458300238284357)  TEST:  (0.73489023183137325, 0.7281132891002019)
+results for output type  ss8  TRAIN:  (0.62384813821437224, 0.60635549659562893)  VAL:  (0.62099434918010143, 0.60019082120924461)  TEST:  (0.619384986543421, 0.60538640120846465)
+Val loss:  364093.125
+Total time spent on epoch: 479.666 seconds
+epoch 13 started
+ complete. time taken: 429.631 seconds
+getting raw outputs  complete. time taken: 472.325 seconds
+results for output type  ss  TRAIN:  (0.74126189474885229, 0.73245009904491276)  VAL:  (0.73614785863415166, 0.72554679478486606)  TEST:  (0.7319959996574148, 0.72581845403868694)
+results for output type  ss8  TRAIN:  (0.62539379249146987, 0.60767521315036932)  VAL:  (0.62221879111227962, 0.60142098839574576)  TEST:  (0.61688816867482665, 0.60371540480444885)
+Val loss:  363023.609375
+	NEW BEST VAL LOSS
+Total time spent on epoch: 529.299 seconds
+epoch 14 started
+ complete. time taken: 429.538 seconds
+getting raw outputs  complete. time taken: 474.136 seconds
+results for output type  ss  TRAIN:  (0.74227617556716619, 0.73344795933600204)  VAL:  (0.7344496566387938, 0.72392433018849645)  TEST:  (0.7319531975002278, 0.72578280611540125)
+results for output type  ss8  TRAIN:  (0.62686010455646357, 0.60930090490312017)  VAL:  (0.62125867658118406, 0.60049594141692009)  TEST:  (0.61732619068787076, 0.60355944514007409)
+Val loss:  365195.09375
+Total time spent on epoch: 480.064 seconds
+epoch 15 started
+ complete. time taken: 437.802 seconds
+getting raw outputs  complete. time taken: 482.526 seconds
+results for output type  ss  TRAIN:  (0.74473518441172792, 0.73563372333701416)  VAL:  (0.73285642170020926, 0.72312520583506068)  TEST:  (0.73294154429691194, 0.72608135747291869)
+results for output type  ss8  TRAIN:  (0.6287442979345057, 0.61079160759792528)  VAL:  (0.61883165995040745, 0.59826323640519963)  TEST:  (0.61650592804987825, 0.60295343044421768)
+Val loss:  366366.265625
+Total time spent on epoch: 488.431 seconds
+epoch 16 started
+ complete. time taken: 431.256 seconds
+getting raw outputs  complete. time taken: 472.436 seconds
+results for output type  ss  TRAIN:  (0.74452650682594368, 0.73554426000057171)  VAL:  (0.73100907575898366, 0.72094093260233638)  TEST:  (0.72940672396359307, 0.72244972528819118)
+results for output type  ss8  TRAIN:  (0.62877472369618093, 0.61086095491788961)  VAL:  (0.61715842823558331, 0.59684418528061378)  TEST:  (0.61456643510055964, 0.60092595480734523)
+Val loss:  366997.78125
+Total time spent on epoch: 478.589 seconds
+epoch 17 started
+ complete. time taken: 416.907 seconds
+getting raw outputs  complete. time taken: 458.761 seconds
+results for output type  ss  TRAIN:  (0.75026026041883342, 0.74067119735823772)  VAL:  (0.73008466662125249, 0.72011759235940254)  TEST:  (0.72927542613088192, 0.72269034877036942)
+results for output type  ss8  TRAIN:  (0.63424693096789031, 0.61619911044857656)  VAL:  (0.61712494111332339, 0.59717352137778723)  TEST:  (0.61324699670015981, 0.60027092421697104)
+Val loss:  367856.796875
+Total time spent on epoch: 464.871 seconds
+epoch 18 started
+ complete. time taken: 431.909 seconds
+getting raw outputs  complete. time taken: 473.727 seconds
+results for output type  ss  TRAIN:  (0.75136811608149112, 0.74171828895281311)  VAL:  (0.72955461666692956, 0.71911505453418312)  TEST:  (0.72963061976184707, 0.72265470084708383)
+results for output type  ss8  TRAIN:  (0.63610214154462241, 0.61774698497968816)  VAL:  (0.61669518680468094, 0.5961661403746682)  TEST:  (0.61456903280631359, 0.60112201838541646)
+Val loss:  367396.0625
+Total time spent on epoch: 479.704 seconds
+epoch 19 started
+ complete. time taken: 429.899 seconds
+getting raw outputs  complete. time taken: 473.976 seconds
+results for output type  ss  TRAIN:  (0.75493415269015374, 0.74555568378045589)  VAL:  (0.725668066025981, 0.71587981169724324)  TEST:  (0.72392580138312834, 0.7175882397501081)
+results for output type  ss8  TRAIN:  (0.63837593201640375, 0.62020272709659185)  VAL:  (0.61168924920842205, 0.59222379356438526)  TEST:  (0.60932566002637922, 0.59565897414188762)
+Val loss:  371652.515625
+Total time spent on epoch: 479.789 seconds
+epoch 20 started
+ complete. time taken: 423.083 seconds
+getting raw outputs  complete. time taken: 465.364 seconds
+results for output type  ss  TRAIN:  (0.75808539502632499, 0.74857414498989439)  VAL:  (0.72872590373685575, 0.71814641895426101)  TEST:  (0.72775825298393992, 0.72049354549789013)
+results for output type  ss8  TRAIN:  (0.64234808227738061, 0.62446361700798603)  VAL:  (0.61661438811995084, 0.59612255177357176)  TEST:  (0.61215857230919846, 0.5981498727814738)
+Val loss:  370732.59375
+Total time spent on epoch: 471.249 seconds
+epoch 21 started
+ complete. time taken: 430.554 seconds
+getting raw outputs  complete. time taken: 475.073 seconds
+results for output type  ss  TRAIN:  (0.76118859848113041, 0.7518514675692759)  VAL:  (0.724153886509742, 0.71366647939712125)  TEST:  (0.72456813423165123, 0.71714709669944787)
+results for output type  ss8  TRAIN:  (0.64447986711295857, 0.62659538538581994)  VAL:  (0.61022924665450928, 0.58900792343904373)  TEST:  (0.60761782079575644, 0.59365823444747945)
+Val loss:  375498.25
+Total time spent on epoch: 481.152 seconds
+epoch 22 started
+ complete. time taken: 426.189 seconds
+getting raw outputs  complete. time taken: 468.067 seconds
+results for output type  ss  TRAIN:  (0.76410418809668545, 0.75483340232774077)  VAL:  (0.725537036495572, 0.71523082585869546)  TEST:  (0.72334275697190287, 0.71618014678032416)
+results for output type  ss8  TRAIN:  (0.64663084064383347, 0.62850852442666705)  VAL:  (0.61124957248943645, 0.59087739010829343)  TEST:  (0.60813002571340558, 0.59445585673099632)
+Val loss:  375885.890625
+Total time spent on epoch: 473.886 seconds
+epoch 23 started
+ complete. time taken: 423.825 seconds
+getting raw outputs  complete. time taken: 466.039 seconds
+results for output type  ss  TRAIN:  (0.76503608148977142, 0.75572485947903756)  VAL:  (0.72367612493421396, 0.71335167283364653)  TEST:  (0.72482771512754995, 0.71736098423916195)
+results for output type  ss8  TRAIN:  (0.64981833982610626, 0.63201188750700088)  VAL:  (0.611995634291574, 0.5913665510761541)  TEST:  (0.61055356936035343, 0.59652789227197578)
+Val loss:  375394.609375
+Total time spent on epoch: 471.919 seconds
+it has been 10 epochs since a new best validation error has been found. stopping training
+./sequence_only/it1_onehot-ss_ss8/170615-12:24:50/network_best_train_fold_10
+Saving the best outputs of the test set to files
+Results for the best network 13
+results for output type  ss  TRAIN:  (0.74126189474885229, 0.73245009904491276)  VAL:  (0.73614785863415166, 0.72554679478486606)  TEST:  (0.7319959996574148, 0.72581845403868694)  IND - /home/rhys/work/Databases/ourdatabase/combined_cd40.mat : (0.73320182953868385, 0.72387034145599782)  IND - /home/rhys/work/Databases/ourdatabase/combined_e01.mat : (0.74183117383258024, 0.73061814471558539) 
+results for output type  ss8  TRAIN:  (0.62539379249146987, 0.60767521315036932)  VAL:  (0.62221879111227962, 0.60142098839574576)  TEST:  (0.61688816867482665, 0.60371540480444885)  IND - /home/rhys/work/Databases/ourdatabase/combined_cd40.mat : (0.61841426764792196, 0.59906551347052395)  IND - /home/rhys/work/Databases/ourdatabase/combined_e01.mat : (0.63733473367323978, 0.61479466031800012) 
